@@ -1,0 +1,22 @@
+---
+title: "How to use..."
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### ... the database pages
+
+This database provides an overview of the available core variables related to youth and child wellbeing measures. It should be viewed as an entry point for research on this topic.
+
+
+More detailed information on the variables, including detailed response categories and original variable names can be found in this Excel file. (Link to Excel spreadsheet).
+
+For the most detailed level of information, the original survey documentation should be consulted. To simplify the search, the survey names are highlighted with links to surveys’ documentation entry pages if possible.
+
+
+### ... the harmonisation pages
+
+Harmonisation can be a useful method for researchers who wish to compile similar measures collected by separate studies. In the <a href="harmonization.html">harmonisation</a> pages of this database, we provide instruction for retrospective (ex-post) harmonisation of existing data sources in a selection of the core child wellbeing measures.

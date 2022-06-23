@@ -1,0 +1,29 @@
+---
+title: "Child Wellbeing Variable Database"
+description: |
+  To assist researchers, policy makers, and others interested in child wellbeing, we have prepared a central database listing child and youth wellbeing measures commonly used in key longitudinal and cross-sectional comparative surveys in Europe organized by literature-based core concepts.
+bibliography: db-lit.bib
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+There has been an increasing number of child well-being surveys at national and cross-European levels. From a research point of view, the value of such data increases dramatically if the data originally collected for national research become available for truly comparative analyses. On these pages, we list the relevant datasets and provide descriptions of the datasets and variables that are available for researchers and policy makers who wish to better understand child wellbeing.
+
+Beyond the mere provision of information on variables, we have been working on the harmonisation of individual variables. Under the <a href="harmonization.html">Harmonisation</a> tab we provide a detailed guide through the harmonisation process using the freely available statistical software R.
+
+Researchers have taken various approaches to categorize child wellbeing measures, often depending upon the focus of the research. Broadly, most frameworks are developed to make or inform policy-oriented recommendations for children and families or to better understand the underlying causes and consequences of child wellbeing [@Pollock2018]. 
+
+We have organized related measures into categories based on a framework developed by the OECD. This framework takes a holistic approach designed to aid evidence-based policy development. They trace measures in outcomes (material, physical health, social, emotional, cultural, cognitive, and educational) children’s activities, relationships, and behaviours (family, health, social, leisure, civil, learning, and digital), children’s settings and environments (family, home, school, community), and public policy conditions (family, housing, health, educational and environmental policies). These are adapted by Schölmerich and his colleagues [@Scholmerich2015] into the following categories which we use to organize the measurement items: 
+
+<font size="4"> <a href="mat_well.html">Material wellbeing</a> </font>   
+<font size="4"> <a href="education.html">Education</a> </font>   
+<font size="4"> <a href="health.html">Health and safety</a> </font>   
+<font size="4"> <a href="family.html">Family and environment</a> </font>   
+<font size="4"> <a href="risk.html">Risk behaviour and lifestyle</a> </font>   
+<font size="4"> <a href="wellbeing.html">Subjective wellbeing</a></font>   
+
+
+

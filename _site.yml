@@ -1,0 +1,32 @@
+name: "Child wellbeing variable database"
+title: "COORDINATE"
+description: |
+  COORDINATE Database
+output_dir: "docs"
+navbar:
+  logo:
+    image: images/Logo_2.jpg
+    href: https://www.coordinate-network.eu/
+  search: true
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"  
+      href: about.html
+    - text: "Subtopics"
+      menu: 
+        - text: "Material wellbeing"
+          href: mat_well.html
+        - text: "Education"
+          href: education.html
+        - text: "Health"
+          href: health.html
+        - text: "Family and environment"
+          href: family.html
+        - text: "Risk behaviour and lifestyle"
+          href: risk.html
+        - text: "Subjective wellbeing"
+          href: wellbeing.html
+    - text: "Harmonisation"
+      href: harmonisation.html
+output: distill::distill_article
