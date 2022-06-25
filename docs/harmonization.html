@@ -2093,7 +2093,17 @@ Subtopics
 <a href="wellbeing.html">Subjective wellbeing</a>
 </div>
 </div>
-<a href="harmonisation.html">Harmonisation</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Harmonisation
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="harmonization.html">Introduction</a>
+<a href="ch_EDsati_1_harm.html">Education</a>
+</div>
+</div>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2125,7 +2135,8 @@ of reliability and validity as compared to the source data. This will
 increase the understanding of the relative (dis-) advantages of
 particular, alternative forms of measuring the same concepts in the
 comparative setting. Below we provide guidelines for conducting the
-harmonization on the key variables using R.</p>
+harmonization on the key variables using
+<a href="https://www.r-project.org/">R</a> .</p>
 <p>The harmonization work flow is fairly straightforward as shown in the
 figure below. For each concept we wish to harmonize, we gather the
 relevant variable from the available datasets, map the values together,
@@ -2140,20 +2151,6 @@ together and analyzed.</p>
 Figure 1: Harmonization work flow
 </p>
 </div>
-</div>
-<h3 id="set-up">Set up</h3>
-<p>The following packages are helpful for harmonizing data:</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span> <span class='co'># Data cleaning</span>
-<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://haven.tidyverse.org'>haven</a></span><span class='op'>)</span> <span class='co'># Importing files in other formats</span>
-<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://larmarange.github.io/labelled/'>labelled</a></span><span class='op'>)</span> <span class='co'># Organizing labelled data</span>
-<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://vincentarelbundock.github.io/countrycode/'>countrycode</a></span><span class='op'>)</span> <span class='co'># Converting country codes to names</span>
-</code></pre>
-</div>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-
 </div>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>

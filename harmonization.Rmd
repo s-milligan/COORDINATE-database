@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ### Harmonization
-Ex-post (or retrospective) harmonization procedures are applied to already collected data to improve comparability and inferential equivalence of measures gathered by different source studies. Since there is little prior knowledge on comparative measurements for the well-being of children and young people, micro-data from a number of key child well-being surveys in Europe have been prepared for comparative analysis by a carefully conducted and documented ex-post harmonization process and the outcomes examined thoroughly for their performance in terms of measurement equivalence (where possible), and possible losses of reliability and validity as compared to the source data. This will increase the understanding of the relative (dis-) advantages of particular, alternative forms of measuring the same concepts in the comparative setting. Below we provide guidelines for conducting the harmonization on the key variables using R. 
+Ex-post (or retrospective) harmonization procedures are applied to already collected data to improve comparability and inferential equivalence of measures gathered by different source studies. Since there is little prior knowledge on comparative measurements for the well-being of children and young people, micro-data from a number of key child well-being surveys in Europe have been prepared for comparative analysis by a carefully conducted and documented ex-post harmonization process and the outcomes examined thoroughly for their performance in terms of measurement equivalence (where possible), and possible losses of reliability and validity as compared to the source data. This will increase the understanding of the relative (dis-) advantages of particular, alternative forms of measuring the same concepts in the comparative setting. Below we provide guidelines for conducting the harmonization on the key variables using <a href="https://www.r-project.org/">R</a> . 
 
 The harmonization work flow is fairly straightforward as shown in the figure below. For each concept we wish to harmonize, we gather the relevant variable from the available datasets, map the values together, and then aggregate them into a harmonized vector including individual case identifiers so that multiple harmonized variables can be joined together and analyzed. 
 
@@ -37,22 +37,5 @@ DiagrammeR::grViz("digraph {
                   height = 250)
 ```
 
-### Set up
-
-The following packages are helpful for harmonizing data: 
-
-```{r packages, warning=FALSE, eval=TRUE, echo=TRUE}
-library(tidyverse) # Data cleaning
-library(haven) # Importing files in other formats
-library(labelled) # Organizing labelled data
-library(countrycode) # Converting country codes to names
-```
-```{r packages2, warning=FALSE, eval=TRUE, echo=FALSE}
-# The following packages are useful for writing the remainder of the page
-library(ggplot2) # for plotting
-library(rio) # for importing and exporting data
-library(knitr) # for making pretty tables
-library(kableExtra) # for making prettier tables
-```
 
 

@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 There has been an increasing number of child well-being surveys at national and cross-European levels. From a research point of view, the value of such data increases dramatically if the data originally collected for national research become available for truly comparative analyses. On these pages, we list the relevant datasets and provide descriptions of the datasets and variables that are available for researchers and policy makers who wish to better understand child wellbeing.
 
-Beyond the mere provision of information on variables, we have been working on the harmonisation of individual variables. Under the <a href="harmonization.html">Harmonisation</a> tab we provide a detailed guide through the harmonisation process using the freely available statistical software R.
+Beyond the provision of information on variables, we have been working on the harmonisation of individual variables. Under the <a href="harmonization.html">Harmonisation</a> tab we provide a detailed guide through the harmonisation process using the freely available statistical software R.
 
 Researchers have taken various approaches to categorize child wellbeing measures, often depending upon the focus of the research. Broadly, most frameworks are developed to make or inform policy-oriented recommendations for children and families or to better understand the underlying causes and consequences of child wellbeing [@Pollock2018]. 
 
