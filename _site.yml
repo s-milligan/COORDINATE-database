@@ -28,9 +28,5 @@ navbar:
         - text: "Subjective wellbeing"
           href: wellbeing.html
     - text: "Harmonisation"
-      menu:
-        - text: "Introduction" 
-          href: harmonization.html
-        - text: "Education"
-          href: ch_EDsati_1_harm.html
+      href: harmonization.html
 output: distill::distill_article

@@ -15,262 +15,402 @@ The educational and cognitive development are central aspects of a child's wellb
 
 
 ## Satisfaction with education
-**<a href="https://www.iser.essex.ac.uk/bhps/documentation">British Household Panel Study (BHPS)</a>**  
 
-------------------------   ---------------------------
-Question text              `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!E10", col_names = FALSE)[[1]]`     
-Measurement                Ordinal
-Perspective                `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!E6", col_names = FALSE)[[1]]`
-Age range                  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!E9", col_names = FALSE)[[1]]`
-Time span                  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!E7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!S7", col_names = FALSE)[[1]]`
-Survey design              Panel survey
-Geographical coverage      UK
-------------------------   ---------------------------
-
-**<a href="https://www.understandingsociety.ac.uk/documentation">Understanding Society (US) </a>**
-
---------------------------   ---------------------------
-Question text                `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!T10", col_names = FALSE)[[1]]`
-Measurement                  Ordinal
-Perspective                  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!T6", col_names = FALSE)[[1]]`
-Age range                    `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!T9", col_names = FALSE)[[1]]`
-Time span                    `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!T7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AC7", col_names = FALSE)[[1]]`
-Survey design                Panel survey
-Geographical coverage        UK
---------------------------   ---------------------------
-
-**<a href="https://isciweb.org/the-data/access-our-dataset/">Children's World (ISCWeB) </a>**
+**British Household Panel Survey (BHPS)**  
+https://www.iser.essex.ac.uk/bhps/documentation
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AD10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!E12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AD6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AD9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AL9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AD7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AL7", col_names = FALSE)[[1]]`
-Survey design         Panel survey
-Geographical coverage UK
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!E6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!E9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!E10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!E11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!E7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!S7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study/">Millenium Cohort Study (MCS)</a>**
+
+**UK Household Longitudinal Study (UKHLS)**  
+https://www.understandingsociety.ac.uk/documentation
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AO10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!T12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AP6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AO9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AR9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AO7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AR7", col_names = FALSE)[[1]]`
-Survey design         Panel survey
-Geographical coverage Albania, Algeria, Argentina, Bangladesh, Belgium, Brazil, Chile, China, Estonia, Finland, France, Germany, Greece, Hong Kong, Hungary, India, Indonesia, Israel, Ireland, Italy, Ivory Coast, Malaysia, Malta, Namibia, Nepal, Norway |Poland, Portugal, Romania, Russia, Spain, Sri Lanka, Switzerland, South Africa, South Korea, Taiwan, Turkey, UK, USA, Vietnam, Wales  
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!T6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!T9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!T10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!T11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!T7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AC7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Next Steps (LSYPE)**
+**Children's World (ISCWeB)**  
+https://isciweb.org/the-data/access-our-dataset
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AT10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AW6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AT9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AW9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AT7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AW7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AL9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AL7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**British Cohort Survey 70 (BCS70)**
+**Millenium Cohort Study (MCS)**  
+https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BM10", col_names = FALSE)[[1]]`
-Measurement            Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BM6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BM9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BN9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BM7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BN7", col_names = FALSE)[[1]]`
--------------------   ---------------------------
-
-**Health Behaviour in School-Aged Children (HBSC)**
-
--------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BV10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AO12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BV6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BV9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BV7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BY7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AO6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AO9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AR9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AO10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AO11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AO7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AR7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Deutsches Jugendinstitut Jugendsurvey (DJI)**
+**Next Steps (LSYPE)**  
+https://cls.ucl.ac.uk/cls-studies/next-steps/
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CB10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CB6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CC9", col_names = FALSE)[[1]]` , `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CB9", col_names = FALSE)[[1]]` 
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CB7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BA7", col_names = FALSE)[[1]]`-- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AW7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Ireland (GUII) Infant Cohort**
+**British Cohort Survey 70 (BCS70)**  
+https://cls.ucl.ac.uk/cls-studies/1970-british-cohort-study/
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DP10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BM12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DP6", col_names = FALSE)[[1]]` , `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DR6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DP9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DR9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DP7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DR7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BM6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BM9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BN9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BM10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BM11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BM7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BN7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Ireland (GUII) Child Cohort**
+**Health Behaviour in School-Aged Children (HBSC)**  
+https://www.uib.no/en/hbscdata
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DS10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BV12", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BV6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BV9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BV10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BV11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BV7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BY7", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Growing Up in Ireland (GUII) Infant Cohort**  
+https://www.growingup.ie/information-for-researchers/
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DP12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DS6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DS9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DV9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DS7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DV7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DP6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DP9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DP10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DP11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DP7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Scotland (GUIS) Birth Cohort 1**
+**Growing Up in Ireland (GUII) Child Cohort**  
+https://www.growingup.ie/information-for-researchers/
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EC10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EC6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EC9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EE9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EC7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EE7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DV9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DV7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**National Child Development Study (NCDS)**
-
+**Growing Up in Scotland (GUIS) Birth Cohort**  
+https://growingupinscotland.org.uk/using-gus-data/
+ 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EN10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EC12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EN6", col_names = FALSE)[[1]]` , `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EP6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EN9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EP9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EN7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EP7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EC6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EC9", col_names = FALSE)[[1]]`  -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EE9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EC10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EC11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EE7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EC7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Norwegian Mother, Father and Child Cohort Study (NMFCS)**
+**National Child Development Study (NCDS)**  
+https://ncds.info/home/surveys
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EW10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EN12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EW6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EW9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EW7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EN6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EN9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EP9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EN10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EN11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EN7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EP7", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Norwegian Mother, Father and Child Cohort Study (NMFCS)**  
+https://www.fhi.no/en/studies/moba/
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW9", col_names = FALSE)[[1]]` 
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 ## Satisfaction with Teacher
 
-**British Household Panel Study (BHPS)**
-Link: to homepage
+**British Household Panel Survey (BHPS)**  
+https://www.iser.essex.ac.uk/bhps/documentation
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!H22", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!H26", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!H18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!H21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!H19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!S19", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!H20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!H23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!H24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!H25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!H21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!S21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Children`s World (ISCWeB)**
+
+**Children's World (ISCWeB)**  
+https://isciweb.org/the-data/access-our-dataset
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AD22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AD18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AD21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AL21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AD19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AL19", col_names = FALSE)[[1]]`
--------------------   ---------------------------
-
-**Millenium Cohort Study (MCS)**
-
--------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AQ22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AQ18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AQ21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AQ19", col_names = FALSE)[[1]]`
--------------------   ---------------------------
-
-**Next Steps (LSYPE)**
-
--------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AT22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AT18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AT21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AW21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AT19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!AW19", col_names = FALSE)[[1]]`
--------------------   ---------------------------
-
-**Health Behaviour in School-Aged Children (HBSC)**
-
--------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BY22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BY18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BY21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BV19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!BY19", col_names = FALSE)[[1]]`
--------------------   ---------------------------
-
-**Deutsche Jugendinstitut (DJI)**
-
--------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CB22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CB18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CC21", col_names = FALSE)[[1]]` , `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CB21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CB19", col_names = FALSE)[[1]]`
--------------------   ---------------------------
-
-**Socio-Economic Panel Study Germany (SOEP)**
-
--------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CD22", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD26", col_names = FALSE)[[1]]`
 Measurement           Nominal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CD18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CD21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!CD19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DM19", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AL23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AL21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Ireland (GUII) Infant Cohort**
+**Millenium Cohort Study (MCS)**  
+https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DR22", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AQ26", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AQ20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AQ23", col_names = FALSE)[[1]]` 
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AQ24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AQ25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AQ21", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Next Steps (LSYPE)**  
+https://cls.ucl.ac.uk/cls-studies/next-steps/
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT26", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AW23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AW21", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Health Behaviour in School-Aged Children (HBSC)**  
+https://www.uib.no/en/hbscdata
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BY26", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BY20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BY23", col_names = FALSE)[[1]]` 
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BY24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BY25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BY21", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Deutsches Jugendinstitut Jugendsurvey (DJI)**  
+https://surveys.dji.de/index.php?m=msg,0&fID=3  
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CB26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CB20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CC23", col_names = FALSE)[[1]]`,`r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CB23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CB24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CB25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CB21", col_names = FALSE)[[1]]` 
+-------------------   ---------------------------
+
+**Socio-Economic Panel Study Germany (SOEP)**  
+https://paneldata.org/soep-core
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CD26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CD20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CD23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CD24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CD25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CD21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DM21", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Growing Up in Ireland (GUII) Infant Cohort**  
+https://www.growingup.ie/information-for-researchers/
+
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR21", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Growing Up in Ireland (GUII) Child Cohort**  
+https://www.growingup.ie/information-for-researchers/
+
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DU26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DU20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DU23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DV23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DU24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DU25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DU21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DV21", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Growing Up in Scotland (GUIS) Birth Cohort**  
+https://growingupinscotland.org.uk/using-gus-data/data-documentation/
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EA26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EA20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EA23", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EE23", col_names = FALSE)[[1]]` 
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EA24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EA25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EA21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EE21", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Norwegian Mother, Father and Child Cohort Study (NMFCS)**  
+https://www.fhi.no/en/studies/moba/
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW21", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+
+## Learning difficulties
+
+**Millenium Cohort Study (MCS)**  
+https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AP41", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DR18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DR21", col_names = FALSE)[[1]]`  --
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DR19", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AP35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AP38", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AR38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AP39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AP40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AP36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AR36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Ireland (GUII) Child Cohort**
+**Next Steps (LSYPE)**  
+https://cls.ucl.ac.uk/cls-studies/next-steps/
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DU22", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT41", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DU18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DU21", col_names = FALSE)[[1]]`  -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DV21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DU19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!DV19", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT38", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AU38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AU36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Scotland (GUIS) Birth Cohort 1**
+**Growing Up in Ireland (GUII) Infant Cohort**  
+https://www.growingup.ie/information-for-researchers
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EA22", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DO41", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EA18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EA21", col_names = FALSE)[[1]]`  -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EE21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EA19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EE19", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DO35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DO38", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DO39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DO40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DO36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Norwegian Mother, Father and Child Cohort Study (NMFCS)**
+**Growing Up in Ireland (GUII) Child Cohort**  
+https://www.growingup.ie/information-for-researchers
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EW22", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS41", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EW18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EW21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Education!EW19", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS38", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DU38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DU36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+**Growing Up in Scotland (GUIS) Birth Cohort 1**  
+https://growingupinscotland.org.uk/using-gus-data/data-documentation
 
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DW41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DW35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DW38", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EE38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DW39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DW40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DW36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EE36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
 
+**Growing Up in Scotland (GUIS) Birth Cohort 2**  
+https://growingupinscotland.org.uk/using-gus-data/data-documentation
 
-**Related Variables:**  
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EF41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EF35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EF38", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EH38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EF39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EF40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EF36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EH36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
 
-  - Satisfaction with school, teachers (parent and child)  
-  - Achievement results in math and reading  
-  - Learning difficulties  
+**Norwegian Mother, Father and Child Cohort Study (NMFCS)**  
+https://www.fhi.no/en/studies/moba/
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!ET41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!ET35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!ET38", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW36", col_names = FALSE)[[1]]` 
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!ET39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!ET40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!ET36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW36", col_names = FALSE)[[1]]` 
+-------------------   ---------------------------

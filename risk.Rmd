@@ -16,238 +16,606 @@ Children’s social and emotional well-being can be compromised by risk factors 
 
 ## Tobacco use
 
-**British Household Panel Study (BHPS)**
+**<a href="https://www.iser.essex.ac.uk/bhps/documentation">British Household Panel Survey (BHPS)**
 Link: to homepage
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!E10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!E12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!E6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!E9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!E7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!S7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!E6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!E9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!E10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!E11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!E7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!S7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Understanding Society (US)**
+
+**<a href="https://www.understandingsociety.ac.uk/documentation">UK Household Longitudinal Study (UKHLS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!T10", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!T6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!T9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!T7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AC7", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AC7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Millenium Cohort Study (MCS)**
+**<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study/">Millenium Cohort Study (MCS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AQ10", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AQ6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AQ9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AS9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AQ7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AS7", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AS9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AS7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Next Steps (LSYPE)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AT10", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AT6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AT9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BA9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AT7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BA7", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BA9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BA7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **British Cohort Survey 70 (BCS70)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BM10", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BM6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BM9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BN9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BM7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BN7", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BN9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BN7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **European School Survey Project on Alcohol and Other Drugs (ESPAD)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BO10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BO6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BO9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BO7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BU7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BU7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Health Behaviour in School-Aged Children (HBSC)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BW10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BW6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BW9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BW7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BZ7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BZ7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Socio-Economic Panel Study Germany (SOEP)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!CE10", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!CE6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!CE9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!CE7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DN7", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DN9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DN7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Ireland (GUII) Child Cohort**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DV10", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DV6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DV9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DW9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DV7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DW7", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DW9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DW7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Scotland (GUIS) Birth Cohort 1**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EF10", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EF6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EF9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EF7", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EF12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EF6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EF9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EF10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EF11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EF7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **National Child Development Study (NCDS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EQ10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EQ12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EQ6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EQ9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EQ7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EQ6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EQ9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EQ10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EQ11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EQ7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Norwegian Mother, Father and Child Cohort Study (NMFCS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EX10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EX12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EX6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EX9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EX7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EX6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EX9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EX10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EX11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EX7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
 
 
 ## Eating habits
 
-**Understanding Society (US)**
+**<a href="https://www.understandingsociety.ac.uk/documentation">UK Household Longitudinal Study (UKHLS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!T22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!T18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!T21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!T19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AB19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AC21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Millenium Cohort Study (MCS)**
+**<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study/">Millenium Cohort Study (MCS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AO22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AO18", col_names = FALSE)[[1]]` , `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AS18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AO21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AS21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AO19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!AS19", col_names = FALSE)[[1]]`
--------------------   ---------------------------
-
-**Next Steps (LSYPE)**
-
--------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BA22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BA18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BA21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BA19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AO26", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AO20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AO23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AS23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AO24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AO25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AO21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AS21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **British Cohort Survey 70 (BCS70)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BL22", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BL18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BL21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BN19", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BL21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BN19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BL26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BL20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BL23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BN23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BL24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BL25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BL21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BN21", col_names = FALSE)[[1]]` 
 -------------------   ---------------------------
 
 **European School Survey Project on Alcohol and Other Drugs (ESPAD)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BP22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BP18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BP21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BP19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BS19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BP26", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BP20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BP23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BP24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BP25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BP21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BS21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Health Behaviour in School-Aged Children (HBSC)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BW22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BW18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BW21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BW19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!BZ19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW26", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BZ21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Ireland (GUII) Infant Cohort**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DS22", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DS26", col_names = FALSE)[[1]]`
 Measurement           Nominal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DS18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DS21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DS19", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DS20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DS23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DS24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DS25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DS21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Ireland (GUII) Child Cohort**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DT22", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DT18", col_names = FALSE)[[1]]` , `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DV18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DT21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DV21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DT19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!DV19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV23", col_names = FALSE)[[1]]` 
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV21", col_names = FALSE)[[1]]` 
 -------------------   ---------------------------
 
 **Growing Up in Scotland (GUIS) Birth Cohort 1**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EC22", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EC18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EC21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EE21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EC19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EE19", col_names = FALSE)[[1]]`
--------------------   ---------------------------
-
-**Growing Up in Scotland (GUIS) Birth Cohort 2**
-
--------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EI22", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC26", col_names = FALSE)[[1]]`
 Measurement           Nominal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EI18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EI21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EI19", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EE23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EE21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Norwegian Mother, Father and Child Cohort Study (NMFCS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EU22", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU21", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+
+## Out of school activities
+
+**<a href="https://www.iser.essex.ac.uk/bhps/documentation">British Household Panel Survey (BHPS)**
+Link: to homepage
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!H41", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EU18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EU21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Risk Behaviour and Lifestyle!EU19", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!H35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!H38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!H39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!H40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!H36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!S36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**<a href="https://www.understandingsociety.ac.uk/documentation">UK Household Longitudinal Study (UKHLS)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!U41", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!U35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!U38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!U39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!U40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!U36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AC36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**<a href="https://isciweb.org/the-data/access-our-dataset/">Children's World (ISCWeB)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AD41", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AD35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AD38", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AL38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AD39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AD40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AD36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AL36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study/">Millenium Cohort Study (MCS)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ38", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AS38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AQ36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AS36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Next Steps (LSYPE)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT38", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BA38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BA36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**British Cohort Survey 70 (BCS70)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM38", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BN38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BN36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**European School Survey Project on Alcohol and Other Drugs (ESPAD)**
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO38", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BU38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BU36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Health Behaviour in School-Aged Children (HBSC)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW38", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BZ38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BZ36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Socio-Economic Panel Study Germany (SOEP)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DN36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Growing Up in Ireland (GUII) Infant Cohort**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DQ41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DQ35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DQ38", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DS38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DQ39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DQ40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DQ36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DS36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Growing Up in Ireland (GUII) Child Cohort**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT38", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DW38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DT36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DW36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Growing Up in Scotland (GUIS) Birth Cohort 1**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC38", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EF38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EC36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EF36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**National Child Development Study (NCDS)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EP41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EP35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EP38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EP39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EP40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EP36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Norwegian Mother, Father and Child Cohort Study (NMFCS)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU41", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU35", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU38", col_names = FALSE)[[1]]` --  `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EX38", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU39", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU40", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EU36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EX36", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+
+## Drug use
+
+
+**<a href="https://www.iser.essex.ac.uk/bhps/documentation">British Household Panel Survey (BHPS)**
+Link: to homepage
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!B54", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!B48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!B51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!B52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!B53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!B49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!S49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**<a href="https://www.understandingsociety.ac.uk/documentation">UK Household Longitudinal Study (UKHLS)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T54", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!T49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AC49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study/">Millenium Cohort Study (MCS)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AM54", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AM48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AM51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AS51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AM52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AM53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AM49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AS49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Next Steps (LSYPE)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT54", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AZ51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AT49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!AZ49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**British Cohort Survey 70 (BCS70)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM54", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BN51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BM49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BN49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**European School Survey Project on Alcohol and Other Drugs (ESPAD)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO54", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BU51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BO49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BU49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Health Behaviour in School-Aged Children (HBSC)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW54", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BZ51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BW49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!BZ49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Socio-Economic Panel Study Germany (SOEP)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE54", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!CE49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DN49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Growing Up in Ireland (GUII) Child Cohort**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV54", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DW51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DV49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DW49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Growing Up in Scotland (GUIS) Birth Cohort 1**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DX54", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DX48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DX51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EF51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DX52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DX53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!DX49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EF49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Growing Up in Scotland (GUIS) Birth Cohort 2**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EG54", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EG48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EG51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EH51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EG52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EG53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EG49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EH49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Etude Longitudinale Francaise depuis l'enfance (ELFE)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EJ54", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EJ48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EJ51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EJ52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EJ53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EJ49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**National Child Development Study (NCDS)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EP54", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EP48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EP51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EN52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EP53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EP49", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**Norwegian Mother, Father and Child Cohort Study (NMFCS)**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!ER54", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!ER48", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!ER51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EX51", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!ER52", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!ER53", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!ER49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Risk Behaviour and Lifestyle!EX49", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Related variables:**  

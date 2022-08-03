@@ -16,334 +16,395 @@ Life satisfaction assessments rely on a more fundamental judgment about children
 
 ## Happiness
 
-**British Household Panel Study (BHPS)**
+**<a href="https://www.iser.essex.ac.uk/bhps/documentation">British Household Panel Survey (BHPS)**
 Link: to homepage
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!E10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!E12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!E6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!E9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!E7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!S7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!E6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!E9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!E10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!E11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!E7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!S7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Understanding Society (US)**
+**<a href="https://www.understandingsociety.ac.uk/documentation">UK Household Longitudinal Study (UKHLS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!T10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!T6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!T9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!T7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AC7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AC7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Children`s World (ISCWeB)**
+**<a href="https://isciweb.org/the-data/access-our-dataset/">Children's World (ISCWeB)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AD10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AD6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AD9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AL9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AD7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AL7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AL7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Millenium Cohort Study (MCS)**
+**<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study/">Millenium Cohort Study (MCS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AN10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AN6", col_names = FALSE)[[1]]` , `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AQ6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AN9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AS9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AN7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AS7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AS9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AS7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Next Steps (LSYPE)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AU10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AU12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AU6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AU9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BA9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AU7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BA7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AU6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AU9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BA9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AU10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AU11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AU7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BA7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **European Social Survey (ESS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BB10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BB12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BB6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BB9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BB7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BJ7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BB6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BB9", col_names = FALSE)[[1]]` --
+`r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BJ9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BB10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BB11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BB7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BJ7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **British Cohort Survey 70 (BCS70)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BN10", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BN6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BN9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BN7", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BN12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BN6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BN9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BN10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BN11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BN7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **European School Survey Project on Alcohol and Other Drugs (ESPAD)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BO10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BO12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BO6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BO9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BS7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BS7", col_names = FALSE)[[1]]`
--------------------   ---------------------------
-
-**Euro Kids Online**
-
--------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EY10", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EY6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EY9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EY7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!FC7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BO6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BO9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BO10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BO11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BO7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BS7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Health Behaviour in School-Aged Children (HBSC)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BW10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BW6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BW9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BW7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BZ7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BZ7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Deutsches Jugendinstitut Jugendsurvey (DJI)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CC10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CC12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CC6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CC9", col_names = FALSE)[[1]]` , `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CA9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CC7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CD7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CC6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CC9", col_names = FALSE)[[1]]`, `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CD9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CC10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CC11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CC7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Socio-Economic Panel Study Germany (SOEP)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CE10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CE12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CE6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CE9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CE7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DN7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CE6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CE9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CE10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CE11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CE7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DN7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Ireland (GUII) Infant Cohort**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DP10", col_names = FALSE)[[1]]`
-Measurement            Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DP6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DP9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DS9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DP7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DS7", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DS9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DS7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Ireland (GUII) Child Cohort**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DT10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DT12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DT6", col_names = FALSE)[[1]]` , `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DW6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DT9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DW9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DT7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DW7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DT6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DT9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DW9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DT10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DT11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DT7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DW7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Scotland (GUIS) Birth Cohort 1**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DY10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EE6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DY9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EF9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DY7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EF7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY9", col_names = FALSE)[[1]]`  -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EF9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EF7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Scotland (GUIS) Birth Cohort 2**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EH10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EH6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EH9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EI9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EH7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EI7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EI9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EI7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **National Child Development Study (NCDS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EQ10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EQ12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EQ6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EQ9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EQ7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EQ6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EQ9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EQ10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EQ11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EQ7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Norwegian Mother, Father and Child Cohort Study (NMFCS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!ES10", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!ES12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EX6", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!ES9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EX9", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!ES7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EX7", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!ES6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!ES9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EX9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!ES10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!ES11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!ES7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EX7", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**EU Kids Online Survey**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EY12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EY6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EY9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!FC9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EY10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EY11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EY7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!FC7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 
 ## Victim of Bullying
 
-
-**British Household Panel Study (BHPS)**
+**<a href="https://www.iser.essex.ac.uk/bhps/documentation">British Household Panel Survey (BHPS)**
 Link: to homepage
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!F22", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!F26", col_names = FALSE)[[1]]`
 Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!F18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!F21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!F19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!S19", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!F20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!F23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!F24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!F25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!F21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!S21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Understanding Society (US)**
+**<a href="https://www.understandingsociety.ac.uk/documentation">UK Household Longitudinal Study (UKHLS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!T22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!V18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!T21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!T19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AC19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!T21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AC21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Children`s World (ISCWeB)**
+**<a href="https://isciweb.org/the-data/access-our-dataset/">Children's World (ISCWeB)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AD22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AD18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AD21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AL21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AD19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AL19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AL23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AD21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AL21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Millenium Cohort Study (MCS)**
+**<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study/">Millenium Cohort Study (MCS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AN22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AN18", col_names = FALSE)[[1]]` , `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AS18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AN21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AS21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AN19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AS19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN26", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AS23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AN21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AS21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Next Steps (LSYPE)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AT22", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AT26", col_names = FALSE)[[1]]`
 Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AT18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AT21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BA21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!AT19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BA19", col_names = FALSE)[[1]]`
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AT20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AT23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BA23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AT24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AT25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!AT21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BA21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **European School Survey Project on Alcohol and Other Drugs (ESPAD)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BP22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BP18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BS21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BP19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BS19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BP26", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BP20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BP23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BP24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BP25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BP21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BS21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Health Behaviour in School-Aged Children (HBSC)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BW22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BW18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BW21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BW19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!BZ19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW26", col_names = FALSE)[[1]]`
+Measurement           Nominal & Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BZ23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BW21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!BZ21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Socio-Economic Panel Study Germany (SOEP)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CQ22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CQ18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CQ21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!CQ19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DN19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CQ26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CQ20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CQ23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CQ24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CQ25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!CQ21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DN21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Ireland (GUII) Infant Cohort**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DP22", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DS18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DP21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DS21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DP19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DS19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DS23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DP21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DS21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Ireland (GUII) Child Cohort**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DT22", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DV18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DT21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DW21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DT19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DW19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DT26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DT20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DT23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DS23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DT24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DW25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DT21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DW21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Scotland (GUIS) Birth Cohort 1**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DY22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DY18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DY21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EF21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!DY19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EF19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EF23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!DY21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EF21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Growing Up in Scotland (GUIS) Birth Cohort 2**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EH22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EH18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EH21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EI21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EH19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EI19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EI23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EH21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EI21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **National Child Development Study (NCDS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EO22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EO18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EO21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EP21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EO19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EP19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EO26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EO20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EO23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EP23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EO24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EO25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EO21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EP21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **Norwegian Mother, Father and Child Cohort Study (NMFCS)**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EU22", col_names = FALSE)[[1]]`
-Measurement           Ordinal
-Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EX18", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EU21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EX21", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EU19", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation.xlsx", range="Subjective wellbeing!EX19", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EU26", col_names = FALSE)[[1]]`
+Measurement           Nominal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EU20", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EU23", col_names = FALSE)[[1]]`-- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EX23", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EU24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EU25", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EU21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Subjective wellbeing!EX21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
-
-
-
 
 **Related variables:**  
 
