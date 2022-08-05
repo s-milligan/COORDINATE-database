@@ -1,0 +1,15 @@
+---
+title: "Child Wellbeing Variable Database"
+bibliography: db-lit.bib
+site: distill::distill_website
+---
+
+We have organized related measures into categories based on a framework developed by the OECD. This framework takes a holistic approach designed to aid evidence-based policy development. They trace measures in outcomes (material, physical health, social, emotional, cultural, cognitive, and educational) children’s activities, relationships, and behaviours (family, health, social, leisure, civil, learning, and digital), children’s settings and environments (family, home, school, community), and public policy conditions (family, housing, health, educational and environmental policies). These are adapted by Schölmerich and his colleagues [@Scholmerich2015] into the following categories which we use to organize the measurement items: 
+
+<font size="4"> <a href="mat_well.html">Material wellbeing</a> </font>   
+<font size="4"> <a href="education.html">Education</a> </font>   
+<font size="4"> <a href="health.html">Health and safety</a> </font>   
+<font size="4"> <a href="family.html">Family and environment</a> </font>   
+<font size="4"> <a href="risk.html">Risk behaviour and lifestyle</a> </font>   
+<font size="4"> <a href="wellbeing.html">Subjective wellbeing</a></font>   
+

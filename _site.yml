@@ -13,8 +13,10 @@ navbar:
       href: index.html
     - text: "About"  
       href: about.html
-    - text: "Subtopics"
+    - text: "Database"
       menu: 
+        - text: "Introduction"
+          href: "db-intro.html"
         - text: "Material wellbeing"
           href: mat_well.html
         - text: "Education"
@@ -27,6 +29,8 @@ navbar:
           href: risk.html
         - text: "Subjective wellbeing"
           href: wellbeing.html
-    - text: "Harmonisation"
-      href: harmonization.html
+    - text: "Harmonization"
+      menu:
+        - text: "Introduction"
+          href: harmonization.html
 output: distill::distill_article

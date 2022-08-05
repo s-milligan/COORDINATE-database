@@ -1,6 +1,9 @@
 ---
 title: "Education"
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
