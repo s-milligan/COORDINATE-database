@@ -19,8 +19,7 @@ The educational and cognitive development are central aspects of a child's wellb
 
 ## Satisfaction with education
 
-**British Household Panel Survey (BHPS)**  
-<a href="https://www.iser.essex.ac.uk/bhps/documentation" target="_blank" rel="noopener noreferrer"> https://www.iser.essex.ac.uk/bhps/documentation</a>
+**<a href="https://www.iser.essex.ac.uk/bhps/documentation" target="_blank" title="https://www.iser.essex.ac.uk/bhps/documentation" rel="noopener noreferrer"> British Household Panel Survey (BHPS)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!E12", col_names = FALSE)[[1]]`
@@ -33,8 +32,8 @@ Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 -------------------   ---------------------------
 
 
-**UK Household Longitudinal Study (UKHLS)**  
-https://www.understandingsociety.ac.uk/documentation
+**<a href="https://www.understandingsociety.ac.uk/documentation" target="_blank" title="https://www.understandingsociety.ac.uk/documentation" rel="noopener noreferrer"> UK Household Longitudinal Study (UKHLS)</a>**
+
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!T12", col_names = FALSE)[[1]]`
@@ -46,8 +45,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!T7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AC7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Children's World (ISCWeB)**  
-https://isciweb.org/the-data/access-our-dataset
+**<a href="https://isciweb.org/the-data/access-our-dataset" target="_blank" title="https://isciweb.org/the-data/access-our-dataset" rel="noopener noreferrer"> Children's World (ISCWeB)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD12", col_names = FALSE)[[1]]`
@@ -59,8 +57,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AL7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Millenium Cohort Study (MCS)**  
-https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study
+**<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" rel="noopener noreferrer"> Millenium Cohort Study (MCS)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AO12", col_names = FALSE)[[1]]`
@@ -72,8 +69,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AO7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AR7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Next Steps (LSYPE)**  
-https://cls.ucl.ac.uk/cls-studies/next-steps/
+**<a href="https://cls.ucl.ac.uk/cls-studies/next-steps/" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/next-steps/" rel="noopener noreferrer"> Next Steps (LSYPE)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT12", col_names = FALSE)[[1]]`
@@ -85,8 +81,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BA7", col_names = FALSE)[[1]]`-- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AW7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**British Cohort Survey 70 (BCS70)**  
-https://cls.ucl.ac.uk/cls-studies/1970-british-cohort-study/
+**<a href="https://cls.ucl.ac.uk/cls-studies/1970-british-cohort-study/" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/1970-british-cohort-study/" rel="noopener noreferrer"> British Cohort Survey 70 (BCS70)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BM12", col_names = FALSE)[[1]]`
@@ -98,8 +93,8 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BM7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BN7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Health Behaviour in School-Aged Children (HBSC)**  
-https://www.uib.no/en/hbscdata
+
+**<a href="https://www.uib.no/en/hbscdata" target="_blank" title="https://www.uib.no/en/hbscdata" rel="noopener noreferrer"> Health Behaviour in School-Aged Children (HBSC)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BV12", col_names = FALSE)[[1]]`
@@ -111,8 +106,8 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BV7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BY7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Ireland (GUII) Infant Cohort**  
-https://www.growingup.ie/information-for-researchers/
+**<a href="https://www.growingup.ie/information-for-researchers/" target="_blank" title="https://www.growingup.ie/information-for-researchers/" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Infant Cohort</a>**
+
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DP12", col_names = FALSE)[[1]]`
@@ -124,8 +119,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DP7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Ireland (GUII) Child Cohort**  
-https://www.growingup.ie/information-for-researchers/
+**<a href="https://www.growingup.ie/information-for-researchers/" target="_blank" title="https://www.growingup.ie/information-for-researchers/" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Child Cohort</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS12", col_names = FALSE)[[1]]`
@@ -137,8 +131,9 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DV7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Scotland (GUIS) Birth Cohort**  
-https://growingupinscotland.org.uk/using-gus-data/
+
+**<a href="https://growingupinscotland.org.uk/using-gus-data/" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort</a>**
+
  
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EC12", col_names = FALSE)[[1]]`
@@ -150,8 +145,9 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EE7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EC7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**National Child Development Study (NCDS)**  
-https://ncds.info/home/surveys
+
+**<a href="https://ncds.info/home/surveys" target="_blank" title="https://ncds.info/home/surveys" rel="noopener noreferrer"> National Child Development Study (NCDS)</a>**
+
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EN12", col_names = FALSE)[[1]]`
@@ -163,8 +159,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EN7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EP7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Norwegian Mother, Father and Child Cohort Study (NMFCS)**  
-https://www.fhi.no/en/studies/moba/
+**<a href="https://www.fhi.no/en/studies/moba/" target="_blank" title="https://www.fhi.no/en/studies/moba/" rel="noopener noreferrer"> Norwegian Mother, Father and Child Cohort Study (NMFCS)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW12", col_names = FALSE)[[1]]`
@@ -178,8 +173,7 @@ Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 
 ## Satisfaction with Teacher
 
-**British Household Panel Survey (BHPS)**  
-https://www.iser.essex.ac.uk/bhps/documentation
+**<a href="https://www.iser.essex.ac.uk/bhps/documentation" target="_blank" title="https://www.iser.essex.ac.uk/bhps/documentation" rel="noopener noreferrer"> British Household Panel Survey (BHPS)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!H26", col_names = FALSE)[[1]]`
@@ -192,8 +186,7 @@ Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 -------------------   ---------------------------
 
 
-**Children's World (ISCWeB)**  
-https://isciweb.org/the-data/access-our-dataset
+**<a href="https://isciweb.org/the-data/access-our-dataset" target="_blank" title="https://isciweb.org/the-data/access-our-dataset" rel="noopener noreferrer"> Children's World (ISCWeB)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD26", col_names = FALSE)[[1]]`
@@ -205,8 +198,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AD21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AL21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Millenium Cohort Study (MCS)**  
-https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study
+**<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" rel="noopener noreferrer"> Millenium Cohort Study (MCS)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AQ26", col_names = FALSE)[[1]]`
@@ -218,8 +210,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AQ21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Next Steps (LSYPE)**  
-https://cls.ucl.ac.uk/cls-studies/next-steps/
+**<a href="https://cls.ucl.ac.uk/cls-studies/next-steps/" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/next-steps/" rel="noopener noreferrer"> Next Steps (LSYPE)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT26", col_names = FALSE)[[1]]`
@@ -231,8 +222,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AW21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Health Behaviour in School-Aged Children (HBSC)**  
-https://www.uib.no/en/hbscdata
+**<a href="https://www.uib.no/en/hbscdata" target="_blank" title="https://www.uib.no/en/hbscdata" rel="noopener noreferrer"> Health Behaviour in School-Aged Children (HBSC)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BY26", col_names = FALSE)[[1]]`
@@ -244,8 +234,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!BY21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Deutsches Jugendinstitut Jugendsurvey (DJI)**  
-https://surveys.dji.de/index.php?m=msg,0&fID=3  
+**<a href="https://surveys.dji.de/index.php?m=msg,0&fID=3" target="_blank" title="https://surveys.dji.de/index.php?m=msg,0&fID=3" rel="noopener noreferrer"> Deutsches Jugendinstitut Jugendsurvey (DJI)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CB26", col_names = FALSE)[[1]]`
@@ -257,8 +246,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CB21", col_names = FALSE)[[1]]` 
 -------------------   ---------------------------
 
-**Socio-Economic Panel Study Germany (SOEP)**  
-https://paneldata.org/soep-core
+**<a href="https://paneldata.org/soep-core" target="_blank" title="https://paneldata.org/soep-core" rel="noopener noreferrer"> Socio-Economic Panel Study Germany (SOEP)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CD26", col_names = FALSE)[[1]]`
@@ -270,9 +258,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!CD21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DM21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Ireland (GUII) Infant Cohort**  
-https://www.growingup.ie/information-for-researchers/
-
+**<a href="https://www.growingup.ie/information-for-researchers/" target="_blank" title="https://www.growingup.ie/information-for-researchers/" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Infant Cohort</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR26", col_names = FALSE)[[1]]`
@@ -284,9 +270,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Ireland (GUII) Child Cohort**  
-https://www.growingup.ie/information-for-researchers/
-
+**<a href="https://www.growingup.ie/information-for-researchers/" target="_blank" title="https://www.growingup.ie/information-for-researchers/" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Child Cohort</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DU26", col_names = FALSE)[[1]]`
@@ -298,8 +282,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DU21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DV21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Scotland (GUIS) Birth Cohort**  
-https://growingupinscotland.org.uk/using-gus-data/data-documentation/
+**<a href="https://growingupinscotland.org.uk/using-gus-data/data-documentation/" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/data-documentation/" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EA26", col_names = FALSE)[[1]]`
@@ -311,8 +294,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EA21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EE21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Norwegian Mother, Father and Child Cohort Study (NMFCS)**  
-https://www.fhi.no/en/studies/moba/
+**<a href="https://www.fhi.no/en/studies/moba/" target="_blank" title="https://www.fhi.no/en/studies/moba/" rel="noopener noreferrer"> Norwegian Mother, Father and Child Cohort Study (NMFCS)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EW26", col_names = FALSE)[[1]]`
@@ -327,8 +309,7 @@ Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 
 ## Learning difficulties
 
-**Millenium Cohort Study (MCS)**  
-https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study
+**<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" rel="noopener noreferrer"> Millenium Cohort Study (MCS)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AP41", col_names = FALSE)[[1]]`
@@ -340,8 +321,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AP36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AR36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Next Steps (LSYPE)**  
-https://cls.ucl.ac.uk/cls-studies/next-steps/
+**<a href="https://cls.ucl.ac.uk/cls-studies/next-steps/" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/next-steps/" rel="noopener noreferrer"> Next Steps (LSYPE)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT41", col_names = FALSE)[[1]]`
@@ -353,8 +333,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AT36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!AU36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Ireland (GUII) Infant Cohort**  
-https://www.growingup.ie/information-for-researchers
+**<a href="https://www.growingup.ie/information-for-researchers" target="_blank" title="https://www.growingup.ie/information-for-researchers" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Infant Cohort</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DO41", col_names = FALSE)[[1]]`
@@ -366,8 +345,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DO36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DR36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Ireland (GUII) Child Cohort**  
-https://www.growingup.ie/information-for-researchers
+**<a href="https://www.growingup.ie/information-for-researchers" target="_blank" title="https://www.growingup.ie/information-for-researchers" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Child Cohort</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS41", col_names = FALSE)[[1]]`
@@ -379,8 +357,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DS36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DU36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Scotland (GUIS) Birth Cohort 1**  
-https://growingupinscotland.org.uk/using-gus-data/data-documentation
+**<a href="https://growingupinscotland.org.uk/using-gus-data/data-documentation" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/data-documentation" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort 1</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DW41", col_names = FALSE)[[1]]`
@@ -392,8 +369,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!DW36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EE36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Growing Up in Scotland (GUIS) Birth Cohort 2**  
-https://growingupinscotland.org.uk/using-gus-data/data-documentation
+**<a href="https://growingupinscotland.org.uk/using-gus-data/data-documentation" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/data-documentation" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort 2</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EF41", col_names = FALSE)[[1]]`
@@ -405,8 +381,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EF36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!EH36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**Norwegian Mother, Father and Child Cohort Study (NMFCS)**  
-https://www.fhi.no/en/studies/moba/
+**<a href="https://www.fhi.no/en/studies/moba/" target="_blank" title="https://www.fhi.no/en/studies/moba/" rel="noopener noreferrer"> Norwegian Mother, Father and Child Cohort Study (NMFCS)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Education!ET41", col_names = FALSE)[[1]]`
