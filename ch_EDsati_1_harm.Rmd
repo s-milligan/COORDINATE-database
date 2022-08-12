@@ -1,0 +1,624 @@
+---
+title: "Variable harmonization"
+description: |
+  Children's satisfaction with education
+# author:
+#   - name: 
+#     url: 
+#     affiliation: 
+#     affiliation_url:
+# date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r initial, include=FALSE}
+Sys.setlocale("LC_ALL", "English")
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  comment = "##",
+  R.options = list(width = 70)
+)
+```
+
+# Set-up
+
+The following packages are necessary for importing, managing, and harmonization of data:
+
+````{r setup}
+library(haven)  # Import foreign statistical formats
+library(labelled)  # Functions to manipulate variable labels, value labels and missing values
+library(tidyverse)  # Suite of packages for data management
+library(questionr)  # Helps with frequency tables
+library(writexl)  # Export to Excel
+library(readxl)  # Importing from Excel
+````
+
+
+# Data import
+
+The first task is to import the data. At this time, only the relevant variable is imported. Before being finalized, the technical (eg. weights, identifiers) and demographic variables must be added. Where possible, the SPSS file format is preferred, since it comes with variable and value labels that are easy to extract. 
+
+<aside>As of `r format(Sys.time(), '%d %B %Y')`.</aside>
+
+````{r import}
+# British Household Panel Study (BHPS)  
+setwd("I:/Team_IntUm/COORDINATE/Source Surveys Data & Documentation/British Household Panel Study (BHPS)/SPSS BHPS Wave 1-18/UKDA-5151-spss/spss/spss19")
+bhps_1994 <- read_sav("./bhps_w4/dyouth.sav", col_select=c("dyphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = dyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_1994")
+bhps_1995 <- read_sav("./bhps_w5/eyouth.sav", col_select=c("eyphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = eyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_1995")
+bhps_1996 <- read_sav("./bhps_w6/fyouth.sav", col_select=c("fyphsw", "pid"), user_na=FALSE)  %>%
+  rename_with(.cols = fyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_1996")
+bhps_1997 <- read_sav("./bhps_w7/gyouth.sav", col_select=c("gyphsw", "pid"), user_na=FALSE)  %>%
+  rename_with(.cols = gyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_1997")
+bhps_1998 <- read_sav("./bhps_w8/hyouth.sav", col_select=c("hyphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = hyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_1998")
+bhps_1999 <- read_sav("./bhps_w9/iyouth.sav", col_select=c("iyphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = iyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_1999")
+bhps_2000 <- read_sav("./bhps_w10/jyouth.sav", col_select=c("jyphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = jyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_2000")
+bhps_2001 <- read_sav("./bhps_w11/kyouth.sav", col_select=c("kyphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = kyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_2001")
+bhps_2002 <- read_sav("./bhps_w12/lyouth.sav", col_select=c("lyphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = lyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_2002")
+bhps_2003 <- read_sav("./bhps_w13/myouth.sav", col_select=c("myphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = myphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_2003")
+bhps_2004 <- read_sav("./bhps_w14/nyouth.sav", col_select=c("nyphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = nyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_2004")
+bhps_2005 <- read_sav("./bhps_w15/oyouth.sav", col_select=c("oyphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = oyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_2005")
+bhps_2006 <- read_sav("./bhps_w16/pyouth.sav", col_select=c("pyphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = pyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_2006")
+bhps_2007 <- read_sav("./bhps_w17/qyouth.sav", col_select=c("qyphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = qyphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_2007")
+bhps_2008 <- read_sav("./bhps_w18/ryouth.sav", col_select=c("ryphsw", "pid"), user_na=FALSE) %>%
+  rename_with(.cols = ryphsw, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pid, ~"ID") %>%
+  mutate(table_name = "bhps_2008")
+
+# Understanding Society (US)
+setwd("I:/Team_IntUm/COORDINATE/Source Surveys Data & Documentation/Understanding Society (US)/spss/UKDA-6614-spss/spss/spss25")
+us_2009 <- read_sav("./ukhls_w1/a_youth.sav", col_select=c("a_yphsc", "pidp"), user_na=FALSE) %>%
+  rename_with(.cols = a_yphsc, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pidp, ~"ID") %>%
+  mutate(table_name = "us_2009")
+us_2010 <- read_sav("./ukhls_w2/b_youth.sav", col_select=c("b_yphsc", "pidp"), user_na=FALSE) %>%
+  rename_with(.cols = b_yphsc, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pidp, ~"ID") %>%
+  mutate(table_name = "us_2010")
+us_2011 <- read_sav("./ukhls_w3/c_youth.sav", col_select=c("c_yphsc", "pidp"), user_na=FALSE) %>%
+  rename_with(.cols = c_yphsc, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pidp, ~"ID") %>%
+  mutate(table_name = "us_2011")
+us_2012 <- read_sav("./ukhls_w4/d_youth.sav", col_select=c("d_yphsc", "pidp"), user_na=FALSE) %>%
+  rename_with(.cols = d_yphsc, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pidp, ~"ID") %>%
+  mutate(table_name = "us_2012")
+us_2013 <- read_sav("./ukhls_w5/e_youth.sav", col_select=c("e_yphsc", "pidp"), user_na=FALSE) %>%
+  rename_with(.cols = e_yphsc, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pidp, ~"ID") %>%
+  mutate(table_name = "us_2013")
+us_2014 <- read_sav("./ukhls_w6/f_youth.sav", col_select=c("f_yphsc", "pidp"), user_na=FALSE) %>%
+  rename_with(.cols = f_yphsc, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pidp, ~"ID") %>%
+  mutate(table_name = "us_2014")
+us_2015 <- read_sav("./ukhls_w7/g_youth.sav", col_select=c("g_yphsc", "pidp"), user_na=FALSE) %>%
+  rename_with(.cols = g_yphsc, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pidp, ~"ID") %>%
+  mutate(table_name = "us_2015")
+us_2016 <- read_sav("./ukhls_w8/h_youth.sav", col_select=c("h_yphsc", "pidp"), user_na=FALSE) %>%
+  rename_with(.cols = h_yphsc, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pidp, ~"ID") %>%
+  mutate(table_name = "us_2016")
+us_2017 <- read_sav("./ukhls_w9/i_youth.sav", col_select=c("i_yphsc", "pidp"), user_na=FALSE) %>%
+  rename_with(.cols = i_yphsc, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pidp, ~"ID") %>%
+  mutate(table_name = "us_2017")
+us_2018 <- read_sav("./ukhls_w10/j_youth.sav", col_select=c("j_yphsc", "pidp"), user_na=FALSE) %>%
+  rename_with(.cols = j_yphsc, ~"ch_EDsati_1") %>%
+  rename_with(.cols = pidp, ~"ID") %>%
+  mutate(table_name = "us_2018")
+
+# Children's World (CW)
+setwd("I:/Team_IntUm/COORDINATE/Source Surveys Data & Documentation/Children's World (ISCWeB)/Data")
+cw_2012_8 <- read_sav("./Childrens worlds 1st wave/ChildrensWorlds2012FirstWave-8YearOld-230815.sav", col_select=c("HappySchoolGeneral", "Qref", "Country"), user_na=FALSE) %>%
+  rename_with(.cols = HappySchoolGeneral, ~"ch_EDsati_1") %>%
+  rename_with(.cols = Qref, ~"ID") %>%
+  mutate(table_name = "cw_2012_8")
+cw_2012_10 <- read_sav("./Childrens worlds 1st wave/ChildrensWorlds2012FirstWave-10YearOld-230815.sav", col_select=c("SatisfiedSchoolGeneral", "Qref", "Country"), user_na=FALSE) %>%
+  rename_with(.cols = SatisfiedSchoolGeneral, ~"ch_EDsati_1") %>%
+  rename_with(.cols = Qref, ~"ID") %>%
+  mutate(table_name = "cw_2012_10")
+cw_2012_12<- read_sav("./Childrens worlds 1st wave/ChildrensWorlds2012FirstWave-12YearOld-230815.sav", col_select=c("SatisfiedSchoolGeneral", "Qref", "Country"), user_na=FALSE) %>%
+  rename_with(.cols = SatisfiedSchoolGeneral, ~"ch_EDsati_1") %>%
+  rename_with(.cols = Qref, ~"ID") %>%
+  mutate(table_name = "cw_2012_12")
+cw_2014_8 <- read_sav("./Childrens worlds 2nd wave/ChildrensWorlds-Wave2-16Countries-8YO-060117.sav", col_select=c("HappySchoolExperience", "UniqueRef", "Country"), user_na=FALSE) %>%
+  rename_with(.cols = HappySchoolExperience, ~"ch_EDsati_1") %>%
+  rename_with(.cols = UniqueRef, ~"ID") %>%
+  mutate(table_name = "cw_2014_8")
+cw_2014_10 <- read_sav("./Childrens worlds 2nd wave/ChildrensWorlds-Wave2-16Countries-10YO-121016.sav", col_select=c("SatisfiedSchoolExperience", "UniqueRef", "Country"), user_na=FALSE) %>%
+  rename_with(.cols = SatisfiedSchoolExperience, ~"ch_EDsati_1") %>%
+  rename_with(.cols = UniqueRef, ~"ID") %>%
+  mutate(table_name = "cw_2014_10")
+cw_2014_12 <- read_sav("./Childrens worlds 2nd wave/ChildrensWorlds-Wave2-16Countries-12YO-121016.sav", col_select=c("SatisfiedSchoolExperience", "UniqueRef", "Country"), user_na=FALSE) %>%
+  rename_with(.cols = SatisfiedSchoolExperience, ~"ch_EDsati_1") %>%
+  rename_with(.cols = UniqueRef, ~"ID") %>%
+  mutate(table_name = "cw_2014_12")
+# The wording of the questions changes here: Divided into satisfaction with what R has learned and life as a student. Below are the data for what R has learned. The rationale is satisfaction with education is more about what a student has learned rather than what life as a student (which encompasses more things) is like
+# This question not asked of the 8 year olds
+#cw_2019_8 <- read_sav("./Childrens worlds 3rd wave/Dataset by Age Group/CW3-8YO-020820.sav", col_select=c("satisfiedthingslearned", "uniqueref", "cname"), user_na=FALSE) %>%
+#  rename_with(.cols = satisfiedthingslearned, ~"ch_EDsati_1") %>%
+# rename_with(.cols = uniqueref, ~"ID") %>%
+#  mutate(table_name = "cw_2019_8")
+cw_2019_10 <- read_sav("./Childrens worlds 3rd wave/Dataset by Age Group/CW3-10YO-020820.sav", col_select=c("satisfiedthingslearned", "uniqueref", "cname"), user_na=FALSE) %>%
+  rename_with(.cols = satisfiedthingslearned, ~"ch_EDsati_1") %>%
+  rename_with(.cols = uniqueref, ~"ID") %>%
+  mutate(table_name = "cw_2019_10")
+cw_2019_12 <- read_sav("./Childrens worlds 3rd wave/Dataset by Age Group/CW3-12YO-020820.sav", col_select=c("satisfiedthingslearned", "uniqueref", "cname"), user_na=FALSE) %>%
+  rename_with(.cols = satisfiedthingslearned, ~"ch_EDsati_1") %>%
+  rename_with(.cols = uniqueref, ~"ID") %>%
+  mutate(table_name = "cw_2019_12")
+
+# Millenium Cohort Survey
+setwd("I:/Team_IntUm/COORDINATE/Source Surveys Data & Documentation/Millenium Cohort Study (MCS)")
+# Household and person identifier (no unique identifier in original data)
+mcs_2006 <- read_stata("./Data & Documentation (Wave 3 - 2006 - 5 Years Old)/stata/stata13/mcs3_parent_cm_interview.dta", col_select=c("CPSAED00", "MCSID", "CPNUM00")) %>%
+  rename_with(.cols = CPSAED00, ~"ch_EDsati_1") %>%
+  mutate(ID=paste0(MCSID, CPNUM00)) %>%
+  mutate(table_name = "mcs_2006") %>%
+  select(-c(MCSID, CPNUM00))
+mcs_2008p <- read_dta("./Data & Documentation (Wave 4 - 2008 - 7 Years Old)/stata/stata13/mcs4_parent_cm_interview.dta", col_select=c("DPSAED00", "MCSID", "DPNUM00")) %>%
+  rename_with(.cols = DPSAED00, ~"ch_EDsati_1") %>%
+  mutate(ID=paste0(MCSID, DPNUM00)) %>%
+  mutate(table_name = "mcs_2008p") %>%
+  select(-c(MCSID, DPNUM00))
+mcs_2008 <- read_dta("./Data & Documentation (Wave 4 - 2008 - 7 Years Old)/stata/stata13/mcs4_cm_interview.dta", col_select=c("DCSC0021", "MCSID", "DCNUM00")) %>%
+  rename_with(.cols = DCSC0021, ~"ch_EDsati_1") %>%
+  mutate(ID=paste0("MCSID", "DCNUM00")) %>%
+  mutate(table_name = "mcs_2008") %>%
+  select(-c(MCSID, DCNUM00))
+mcs_2012 <- read_dta("./Data & Documentation (Wave 5 - 2012 - 11 Years Old)/stata/stata13/mcs5_cm_interview.dta", col_select=c("ECQ29X00", "MCSID", "ECNUM00")) %>%
+  rename_with(.cols = ECQ29X00, ~"ch_EDsati_1") %>%
+  mutate(ID=paste0("MCSID", "ECNUM00")) %>%
+  mutate(table_name = "mcs_2012") %>%
+  select(-c(MCSID, ECNUM00))
+mcs_2015 <- read_dta("./Data & Documentation (Wave 6 - 2015 - 14 Years Old)/stata/stata13/mcs6_cm_interview.dta", col_select=c("FCSCHL00", "MCSID", "FCNUM00")) %>%
+  rename_with(.cols = FCSCHL00, ~"ch_EDsati_1") %>%
+  mutate(ID=paste0("MCSID", "FCNUM00")) %>%
+  mutate(table_name = "mcs_2015") %>%
+  select(-c(MCSID, FCNUM00))
+
+# Next Steps (LYPSE)
+setwd("I:/Team_IntUm/COORDINATE/Source Surveys Data & Documentation/Next Steps (LYPSE)/Data & Documentation Next Steps (LYPSE (Wave 1-8) (SPSS))/UKDA-5545-spss/spss/spss25/eul")
+# Two related questions in same survey
+ns_2004a <- read_sav("./wave_one_lsype_young_person_2020.sav", col_select = c("W1yys1YP", "NSID")) %>%
+  rename_with(.cols = W1yys1YP, ~"ch_EDsati_1") %>%  
+  rename_with(.cols = NSID, ~"ID") %>%
+  mutate(table_name = "ns_2004a")
+ns_2004b <- read_sav("./wave_one_lsype_young_person_2020.sav", col_select = c("W1yys6YP", "NSID")) %>%
+  rename_with(.cols = W1yys6YP, ~"ch_EDsati_1") %>%
+  rename_with(.cols = NSID, ~"ID") %>%
+  mutate(table_name = "ns_2004b")
+ns_2005a <- read_sav("./wave_two_lsype_young_person_2020.sav", col_select = c("W2YYS1YP", "NSID")) %>%
+  rename_with(.cols = W2YYS1YP, ~"ch_EDsati_1") %>%
+  rename_with(.cols = NSID, ~"ID") %>%
+  mutate(table_name = "ns_2005a")
+ns_2005b <- read_sav("./wave_two_lsype_young_person_2020.sav", col_select = c("W2YYS6YP", "NSID")) %>%
+  rename_with(.cols = W2YYS6YP, ~"ch_EDsati_1") %>%
+  rename_with(.cols = NSID, ~"ID") %>%
+  mutate(table_name = "ns_2005b")
+ns_2006a <- read_sav("./wave_three_lsype_young_person_2020.sav", col_select = c("W3yys1YP", "NSID")) %>%
+  rename_with(.cols = W3yys1YP, ~"ch_EDsati_1") %>%
+  rename_with(.cols = NSID, ~"ID") %>%
+  mutate(table_name = "ns_2006a")
+ns_2006b <- read_sav("./wave_three_lsype_young_person_2020.sav", col_select = c("W3yys6YP", "NSID")) %>%
+  rename_with(.cols = W3yys6YP, ~"ch_EDsati_1") %>%
+  rename_with(.cols = NSID, ~"ID") %>%
+  mutate(table_name = "ns_2006b")
+
+# Health behaviour in school-aged children (HBSC)
+setwd("I:/Team_IntUm/COORDINATE/Source Surveys Data & Documentation/Health Behaviour in School-Aged Children (HBSC)/Data")
+hsbc_2002 <- read_dta("HBSC2001OAed1.0_F4.dta", col_select=c("likeschool", "uniqueid")) %>%
+  rename_with(.cols = likeschool, ~"ch_EDsati_1") %>%
+  rename_with(.cols = uniqueid, ~"ID") %>%
+  mutate(table_name = "hsbc_2008")
+
+# DJI
+setwd("I:/Team_IntUm/COORDINATE/Source Surveys Data & Documentation/Deutsches Jugendinstitut Jugendsurvey (DJI)/Data")
+dji_2003 <- read_dta("ZA5187.dta", col_select=c("J427", "lfd")) %>%
+  rename_with(.cols = J427, ~"ch_EDsati_1") %>%
+  rename_with(.cols = lfd, ~"ID") %>%
+  mutate(table_name = "dji_2003")
+
+
+````
+
+# Prepare harmonization variables
+
+The next stage is the preparation of the variables for harmonization. In this step, we create a codebook with a list of source variable names, value labels, any additional info (eg. categorical vs continuous coding), and the source data. We first need a function that will extract the information we need and then combine the information together into a list.
+
+
+````{r harm_prep_fun}
+create_codebook <- function(data) {
+  var_labels <- data.frame(cbind(names(var_label(data)), do.call(rbind, var_label(data)))) %>%
+    rename(varname = X1, varlabel = X2)
+  freqs <- lapply(data, function(x) { return(questionr::freq(x)) }) %>%
+    keep(function(x) nrow(x) < 1000) %>%
+    do.call(rbind, .) %>% 
+    tibble::rownames_to_column(var = "varname_value") %>%
+    mutate(varname = gsub("(.+?)(\\..*)", "\\1", varname_value),
+           value = gsub("^[^.]*.","",varname_value)) %>%
+    group_by(varname) %>%
+    mutate(npos = row_number(),
+           value_n = paste(value, n, sep = ": ")) %>%
+    select(varname, value_n, npos) %>%
+    spread(npos, value_n) %>%
+    mutate_at(vars(-varname), list(~ifelse(is.na(.), "", .))) %>%  # This line (funs()) needs to be updated
+    unite("valfreqs", c(2:ncol(.)), sep = "\n") %>%
+    mutate(valfreqs = sub("\\s+$", "", valfreqs))
+  full_join(var_labels, freqs, by = "varname")
+}
+````
+
+Then we extract the information from each of the datasets using our new function:
+
+
+````{r harm_prep_comb}
+codebook_bhps_1994_info <- bhps_1994 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_1994 <- create_codebook(codebook_bhps_1994_info) %>%
+  mutate(table_name = "BHPS_1994")
+codebook_bhps_1995_info <- bhps_1995 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_1995 <- create_codebook(codebook_bhps_1995_info) %>%
+  mutate(table_name = "BHPS_1995")
+codebook_bhps_1996_info <- bhps_1996 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_1996 <- create_codebook(codebook_bhps_1996_info) %>%
+  mutate(table_name = "BHPS_1996")
+codebook_bhps_1997_info <- bhps_1997 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_1997 <- create_codebook(codebook_bhps_1997_info) %>%
+  mutate(table_name = "BHPS_1997")
+codebook_bhps_1998_info <- bhps_1998 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_1998 <- create_codebook(codebook_bhps_1998_info) %>%
+  mutate(table_name = "BHPS_1998")
+codebook_bhps_1999_info <- bhps_1999 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_1999 <- create_codebook(codebook_bhps_1999_info) %>%
+  mutate(table_name = "BHPS_1999")
+codebook_bhps_2000_info <- bhps_2000 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_2000 <- create_codebook(codebook_bhps_2000_info) %>%
+  mutate(table_name = "BHPS_2000")
+codebook_bhps_2001_info <- bhps_2001 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_2001 <- create_codebook(codebook_bhps_2001_info) %>%
+  mutate(table_name = "BHPS_2001")
+codebook_bhps_2002_info <- bhps_2002 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_2002 <- create_codebook(codebook_bhps_2002_info) %>%
+  mutate(table_name = "BHPS_2002")
+codebook_bhps_2003_info <- bhps_2003 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_2003 <- create_codebook(codebook_bhps_2003_info) %>%
+  mutate(table_name = "BHPS_2003")
+codebook_bhps_2004_info <- bhps_2004 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_2004 <- create_codebook(codebook_bhps_2004_info) %>%
+  mutate(table_name = "BHPS_2004")
+codebook_bhps_2005_info <- bhps_2005 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_2005 <- create_codebook(codebook_bhps_2005_info) %>%
+  mutate(table_name = "BHPS_2005")
+codebook_bhps_2006_info <- bhps_2006 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_2006 <- create_codebook(codebook_bhps_2006_info) %>%
+  mutate(table_name = "BHPS_2006")
+codebook_bhps_2007_info <- bhps_2007 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_2007 <- create_codebook(codebook_bhps_2007_info) %>%
+  mutate(table_name = "BHPS_2007")
+codebook_bhps_2008_info <- bhps_2008 %>% 
+  select(ch_EDsati_1)
+codebook_bhps_2008 <- create_codebook(codebook_bhps_2008_info) %>%
+  mutate(table_name = "BHPS_2008")
+
+codebook_us_2009_info <- us_2009 %>%
+  select(ch_EDsati_1)
+codebook_us_2009 <- create_codebook(codebook_us_2009_info) %>%
+  mutate(table_name = "us_2009")
+codebook_us_2010_info <- us_2010 %>%
+  select(ch_EDsati_1)
+codebook_us_2010 <- create_codebook(codebook_us_2010_info) %>%
+  mutate(table_name = "us_2010")
+codebook_us_2011_info <- us_2011 %>%
+  select(ch_EDsati_1)
+codebook_us_2011 <- create_codebook(codebook_us_2011_info) %>%
+  mutate(table_name = "us_2011")
+codebook_us_2012_info <- us_2012 %>%
+  select(ch_EDsati_1)
+codebook_us_2012 <- create_codebook(codebook_us_2012_info) %>%
+  mutate(table_name = "us_2012")
+codebook_us_2013_info <- us_2013 %>%
+  select(ch_EDsati_1)
+codebook_us_2013 <- create_codebook(codebook_us_2013_info) %>%
+  mutate(table_name = "us_2013")
+codebook_us_2014_info <- us_2014 %>%
+  select(ch_EDsati_1)
+codebook_us_2014 <- create_codebook(codebook_us_2014_info) %>%
+  mutate(table_name = "us_2014")
+codebook_us_2015_info <- us_2015 %>%
+  select(ch_EDsati_1)
+codebook_us_2015 <- create_codebook(codebook_us_2015_info) %>%
+  mutate(table_name = "us_2015")
+codebook_us_2016_info <- us_2016 %>%
+  select(ch_EDsati_1)
+codebook_us_2016 <- create_codebook(codebook_us_2016_info) %>%
+  mutate(table_name = "us_2016")
+codebook_us_2017_info <- us_2017 %>%
+  select(ch_EDsati_1)
+codebook_us_2017 <- create_codebook(codebook_us_2017_info) %>%
+  mutate(table_name = "us_2017")
+codebook_us_2018_info <- us_2018 %>%
+  select(ch_EDsati_1)
+codebook_us_2018 <- create_codebook(codebook_us_2018_info) %>%
+  mutate(table_name = "us_2018")
+
+codebook_cw_2012_8_info <- cw_2012_8 %>%
+  select(ch_EDsati_1)
+codebook_cw_2012_8 <- create_codebook(codebook_cw_2012_8_info) %>%
+  mutate(table_name = "cw_2012_8")
+codebook_cw_2012_10_info <- cw_2012_10 %>%
+  select(ch_EDsati_1)
+codebook_cw_2012_10 <- create_codebook(codebook_cw_2012_10_info) %>%
+  mutate(table_name = "cw_2012_10")
+codebook_cw_2012_12_info <- cw_2012_12 %>%
+  select(ch_EDsati_1)
+codebook_cw_2012_12 <- create_codebook(codebook_cw_2012_12_info) %>%
+  mutate(table_name = "cw_2012_12")
+codebook_cw_2014_8_info <- cw_2014_8 %>%
+  select(ch_EDsati_1)
+codebook_cw_2014_8 <- create_codebook(codebook_cw_2014_8_info) %>%
+  mutate(table_name = "cw_2014_8")
+codebook_cw_2014_10_info <- cw_2014_10 %>%
+  select(ch_EDsati_1)
+codebook_cw_2014_10 <- create_codebook(codebook_cw_2014_10_info) %>%
+  mutate(table_name = "cw_2014_10")
+codebook_cw_2014_12_info <- cw_2014_12 %>%
+  select(ch_EDsati_1)
+codebook_cw_2014_12 <- create_codebook(codebook_cw_2014_12_info) %>%
+  mutate(table_name = "cw_2014_12")
+# codebook_cw_2019_8_info <- cw_2019_8 %>%
+#   select(ch_EDsati_1)
+# codebook_cw_2019_8 <- create_codebook(codebook_cw_2019_8_info) %>%
+#  mutate(table_name = "cw_2019_8")
+codebook_cw_2019_10_info <- cw_2019_10 %>%
+  select(ch_EDsati_1)
+codebook_cw_2019_10 <- create_codebook(codebook_cw_2019_10_info) %>%
+  mutate(table_name = "cw_2019_10")
+codebook_cw_2019_12_info <- cw_2019_12 %>%
+  select(ch_EDsati_1)
+codebook_cw_2019_12 <- create_codebook(codebook_cw_2019_12_info) %>%
+  mutate(table_name = "cw_2019_12")
+
+codebook_mcs_2006_info <- mcs_2006 %>%
+  select(ch_EDsati_1)
+codebook_mcs_2006 <- create_codebook(codebook_mcs_2006_info) %>%
+  mutate(table_name = "mcs_2006")
+codebook_mcs_2008_info <- mcs_2008 %>%
+  select(ch_EDsati_1)
+codebook_mcs_2008 <- create_codebook(codebook_mcs_2008_info) %>%
+  mutate(table_name = "mcs_2008")
+codebook_mcs_2008p_info <- mcs_2008p %>%
+  select(ch_EDsati_1)
+codebook_mcs_2008p <- create_codebook(codebook_mcs_2008p_info) %>%
+  mutate(table_name = "mcs_2008p")
+codebook_mcs_2012_info <- mcs_2012 %>%
+  select(ch_EDsati_1)
+codebook_mcs_2012 <- create_codebook(codebook_mcs_2012_info) %>%
+  mutate(table_name = "mcs_2012")
+codebook_mcs_2015_info <- mcs_2015 %>%
+  select(ch_EDsati_1)
+codebook_mcs_2015 <- create_codebook(codebook_mcs_2015_info) %>%
+  mutate(table_name = "mcs_2015")
+
+codebook_ns_2004a_info <- ns_2004a %>%
+  select(ch_EDsati_1)
+codebook_ns_2004a <- create_codebook(codebook_ns_2004a_info) %>%
+  mutate(table_name = "ns_2004a")
+codebook_ns_2004b_info <- ns_2004b %>%
+  select(ch_EDsati_1)
+codebook_ns_2004b <- create_codebook(codebook_ns_2004b_info) %>%
+  mutate(table_name = "ns_2004b")
+codebook_ns_2005a_info <- ns_2005a %>%
+  select(ch_EDsati_1)
+codebook_ns_2005a <- create_codebook(codebook_ns_2005a_info) %>%
+  mutate(table_name = "ns_2005a")
+codebook_ns_2005b_info <- ns_2005b %>%
+  select(ch_EDsati_1)
+codebook_ns_2005b <- create_codebook(codebook_ns_2005b_info) %>%
+  mutate(table_name = "ns_2005b")
+codebook_ns_2006a_info <- ns_2006a %>%
+  select(ch_EDsati_1)
+codebook_ns_2006a <- create_codebook(codebook_ns_2006a_info) %>%
+  mutate(table_name = "ns_2006a")
+codebook_ns_2006b_info <- ns_2006b %>%
+  select(ch_EDsati_1)
+codebook_ns_2006b <- create_codebook(codebook_ns_2006b_info) %>%
+  mutate(table_name = "ns_2006b")
+codebook_hsbc_2002_info <- hsbc_2002 %>%
+  select(ch_EDsati_1)
+codebook_hsbc_2002 <- create_codebook(codebook_hsbc_2002_info) %>%
+  mutate(table_name = "hsbc_2002")
+codebook_dji_2003_info <- dji_2003 %>%
+  select(ch_EDsati_1)
+codebook_dji_2003 <- create_codebook(codebook_dji_2003_info) %>%
+  mutate(table_name = "dji_2003")
+````
+
+
+The individual codebooks can then be combined together and exported to Excel.
+
+````{r harm_prep_writecb}
+codebook_all <- bind_rows(
+    codebook_bhps_1994, codebook_bhps_1995, codebook_bhps_1996, codebook_bhps_1997, 
+    codebook_bhps_1998, codebook_bhps_1999, codebook_bhps_2000, codebook_bhps_2001,
+    codebook_bhps_2002, codebook_bhps_2003, codebook_bhps_2004, codebook_bhps_2005,
+    codebook_bhps_2006, codebook_bhps_2007, codebook_bhps_2008,
+    codebook_us_2009, codebook_us_2010, codebook_us_2011, codebook_us_2012,
+    codebook_us_2013, codebook_us_2014, codebook_us_2015, codebook_us_2016,
+    codebook_us_2017, codebook_us_2018, codebook_cw_2012_8, codebook_cw_2012_10, 
+    codebook_cw_2012_12, codebook_cw_2014_8, codebook_cw_2014_10, codebook_cw_2014_12,
+    codebook_cw_2019_10, codebook_cw_2019_12, codebook_mcs_2006, codebook_mcs_2008, 
+    codebook_mcs_2008p, codebook_mcs_2012, codebook_mcs_2015,
+    codebook_ns_2004a, codebook_ns_2004b, codebook_ns_2005a, codebook_ns_2005b,
+    codebook_ns_2006a, codebook_ns_2006b, codebook_hsbc_2002, codebook_dji_2003
+                          ) %>%
+  mutate(target_var = NA)  
+setwd("I:/Team_IntUm/COORDINATE/D4.3-Harmonization/2_Education/ch_EDsati_1")
+write_xlsx(codebook_all, "ch_EDsati_1_codebook.xlsx")
+````
+
+The codebook can now be examined. Each row in the Excel file corresponds to one dataset. The following fields are displayed in the columns:  
+
+  * `varname` is the name of the variable in the original dataset
+  * `varlabel` is the label of the variable in the original dataset
+  * `valfreqs` is the frequency for each value in the original dataset
+  * `table_name` is the abbreviated name of of the original dataset
+  
+The table looks like this:
+
+```{r, layout="l-body-outset"}
+rmarkdown::paged_table(codebook_all)
+```
+
+  
+# Create a crosswalk table
+
+The next step is to map the input values to target values using a so-called crosswalk table. Start by importing the Excel table created in the previous step:
+
+````{r harm_readcb}
+setwd("I:/Team_IntUm/COORDINATE/D4.3-Harmonization/2_Education/ch_EDsati_1")
+cb <- read_xlsx("ch_EDsati_1_codebook.xlsx")
+
+create_cwt <- function(data) {
+  var_labels <- data.frame(cbind(names(var_label(data)), do.call(rbind, var_label(data)))) %>%
+    rename(varname = X1, varlabel = X2)
+  freqs_cwt <- lapply(data, function(x) { return(questionr::freq(x)) }) %>%
+    keep(function(x) nrow(x) < 1000) %>%
+    do.call(rbind, .) %>% 
+    tibble::rownames_to_column(var = "varname_value") %>%
+    mutate(varname = gsub("(.+?)(\\..*)", "\\1", varname_value),
+           value = gsub("^[^.]*.","",varname_value),
+           value_code = sub(".*\\[(.+)\\].*", "\\1", varname_value, perl = TRUE),
+           value_code = ifelse(str_sub(varname_value, -2, -1) == "NA", "NA", value_code),
+           value_code = ifelse(gsub(" ", "", fixed = TRUE, varname_value) == varname_value, 
+                               gsub("^[^.]*.","",varname_value), value_code)) %>%
+    group_by(varname) %>%
+    mutate(npos = row_number(),
+           value_n = paste(value, n, sep = ": ")) %>%
+    select(npos, varname, value_n, value, value_code)
+  
+  full_join(var_labels, freqs_cwt, by = "varname")
+}
+
+data_tables <- c("BHPS_1994", "BHPS_1995", "BHPS_1996", "BHPS_1997",
+                 "BHPS_1998", "BHPS_1999", "BHPS_2000", "BHPS_2001",
+                 "BHPS_2002", "BHPS_2003", "BHPS_2004", "BHPS_2005",
+                 "BHPS_2006", "BHPS_2007", "BHPS_2008", 
+                 "us_2009", "us_2010", "us_2011", "us_2012", "us_2013", 
+                 "us_2014", "us_2015", "us_2016", "us_2017", "us_2018",
+                 "cw_2012_8", "cw_2012_10", "cw_2012_12", 
+                 "cw_2014_8", "cw_2014_10", "cw_2014_12", "cw_2019_10", "cw_2019_12", 
+                 "mcs_2006", "mcs_2008", "mcs_2008p", "mcs_2012", "mcs_2015",
+                 "ns_2004a", "ns_2004b", "ns_2005a", "ns_2005b",
+                 "ns_2006a", "ns_2006b", "hsbc_2002", "dji_2003")
+cwt_all <- list()
+
+for (i in (1:length(data_tables))) {
+  table_name_input <- data_tables[i]
+  varnames <- cb$varname[cb$table_name == table_name_input]
+  cwt_all[[i]] <- eval(parse(text = tolower(table_name_input))) %>%
+    select(varnames) %>%
+    create_cwt() %>%
+    mutate(table_name = table_name_input)
+}
+
+cwt_all <- do.call(rbind, cwt_all) 
+
+cwt_all %>%
+  select(-varlabel) %>%
+  left_join(cb, by = c("varname", "table_name")) %>%
+  mutate(target_value = NA) %>%
+  select(table_name, target_var,
+         varname, varlabel, starts_with("c_"),
+         value_n, value_code, target_value) %>%
+  write_xlsx(., "cwt_all.xlsx")
+````
+  
+We now have a new table that shows the values of the original variables as well as an empty column that can be used to map on the new variable values
+
+```{r, layout="l-body-outset"}
+rmarkdown::paged_table(cwt_all)
+```
+
+# Harmonization
+
+
+````{r, harm}
+setwd("I:/Team_IntUm/COORDINATE/D4.3-Harmonization/2_Education/ch_EDsati_1")
+cwt_all1 <- readxl::read_xlsx("cwt_all.xlsx")
+
+survey_files <- plyr::rbind.fill(bhps_1994, bhps_1995, bhps_1996, bhps_1997, bhps_1998, 
+                      bhps_1999, bhps_2000, bhps_2001, bhps_2002, bhps_2003, 
+                      bhps_2004, bhps_2005,  bhps_2006, bhps_2007, bhps_2008, 
+                      us_2009, us_2010, us_2011, us_2012, us_2013, us_2014, us_2015, 
+                      us_2016, us_2017, cw_2012_8, cw_2012_10, cw_2012_12, 
+                      cw_2014_8, cw_2014_10, cw_2014_12, cw_2019_10, 
+                      cw_2019_12, mcs_2006, mcs_2008, mcs_2008p, mcs_2012, mcs_2015,
+                      ns_2004a, ns_2004b, ns_2005a, ns_2005b, ns_2006a, ns_2006b,
+                      hsbc_2002, dji_2003
+                      )
+survey_files <- survey_files %>%
+  mutate(ch_EDsati_1=replace(ch_EDsati_1, which(ch_EDsati_1<0L), NA)) %>%
+  group_by(table_name) %>%
+  mutate(ch_EDsati_1_harm = round(plotrix::rescale(ch_EDsati_1, c(1,11))))
+
+saveRDS(survey_files, file="ch_EDsati_1_harm.Rds")
+
+df <- readRDS("ch_EDsati_1_harm.Rds")
+
+````

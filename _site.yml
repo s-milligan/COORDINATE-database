@@ -33,4 +33,6 @@ navbar:
       menu:
         - text: "Introduction"
           href: harmonization.html
+        - text: "Education"
+          href: ch_EDsati_1_harm.html
 output: distill::distill_article
