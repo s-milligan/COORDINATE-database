@@ -13,7 +13,7 @@ Ex-post (or retrospective) harmonization procedures are applied to already colle
 
 The harmonization work flow is fairly straightforward as shown in the figure below. For each concept we wish to harmonize, we gather the relevant variable from the available datasets, map the values together, and then aggregate them into a harmonized vector including individual case identifiers so that multiple harmonized variables can be joined together and analyzed. 
 
-```{r dataflow, fig.cap="Harmonization work flow", fig.align='left', echo=FALSE, cache=TRUE}
+```{r dataflow, fig.cap="Harmonization work flow", fig.align='left', echo=FALSE}
 # Path diagram for developing harmonized worries about finances variable
 DiagrammeR::grViz("digraph {
   graph [layout = dot, rankdir = TB]
