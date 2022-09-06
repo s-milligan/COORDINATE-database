@@ -35,4 +35,6 @@ navbar:
           href: harmonization.html
         - text: "Education"
           href: ch_EDsati_1_harm.html
+        - text: "Household income"
+          href: pa_MWinco_1.html
 output: distill::distill_article

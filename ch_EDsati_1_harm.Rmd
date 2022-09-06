@@ -40,7 +40,6 @@ library(readxl)  # Importing from Excel
 
 The first task is to import the data. At this time, only the relevant variable is imported. Before being finalized, the technical (eg. weights, identifiers) and demographic variables must be added. Where possible, the SPSS file format is preferred, since it comes with variable and value labels that are easy to extract. 
 
-<aside>As of `r format(Sys.time(), '%d %B %Y')`.</aside>
 
 ````{r import}
 # British Household Panel Study (BHPS)  
@@ -260,8 +259,6 @@ dji_2003 <- read_dta("ZA5187.dta", col_select=c("J427", "lfd")) %>%
   rename_with(.cols = J427, ~"ch_EDsati_1") %>%
   rename_with(.cols = lfd, ~"ID") %>%
   mutate(table_name = "dji_2003")
-
-
 ````
 
 # Prepare harmonization variables
@@ -488,7 +485,6 @@ codebook_dji_2003_info <- dji_2003 %>%
 codebook_dji_2003 <- create_codebook(codebook_dji_2003_info) %>%
   mutate(table_name = "dji_2003")
 ````
-
 
 The individual codebooks can then be combined together and exported to Excel.
 
