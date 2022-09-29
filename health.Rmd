@@ -31,6 +31,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!E7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!S7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
 **<a href="https://www.understandingsociety.ac.uk/documentation" target="_blank" title="https://www.understandingsociety.ac.uk/documentation" rel="noopener noreferrer"> UK Household Longitudinal Study (UKHLS)</a>**
 
 -------------------   ---------------------------
@@ -43,7 +47,11 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!T7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AC7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" rel="noopener noreferrer"> Millenium Cohort Study (MCS)</a>**
+<aside>
+The perspective and question text change over time.
+</aside>
+
+**<a href="https://isciweb.org/the-data/access-our-dataset" target="_blank" title="https://isciweb.org/the-data/access-our-dataset" rel="noopener noreferrer"> Children's World (ISCWeB)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AD12", col_names = FALSE)[[1]]`
@@ -55,11 +63,14 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AD7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AL7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
 
 **<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" rel="noopener noreferrer"> Millenium Cohort Study (MCS)</a>**
 
 -------------------   ---------------------------
-Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AU12", col_names = FALSE)[[1]]`
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AO12", col_names = FALSE)[[1]]`
 Measurement           Ordinal
 Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AU6", col_names = FALSE)[[1]]`
 Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AU9", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!BA9", col_names = FALSE)[[1]]`
@@ -68,7 +79,23 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AU7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!BA7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
 **<a href="https://cls.ucl.ac.uk/cls-studies/next-steps/" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/next-steps/" rel="noopener noreferrer"> Next Steps (LSYPE)</a>**
+
+-------------------   ---------------------------
+Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AU12", col_names = FALSE)[[1]]`
+Measurement           Ordinal
+Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AU6", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AU9", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AU10", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AU11", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AU7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!BA7", col_names = FALSE)[[1]]`
+-------------------   ---------------------------
+
+**<a href="https://www.europeansocialsurvey.org/data" target="_blank" title="https://www.europeansocialsurvey.org/data" rel="noopener noreferrer"> European Social Survey (ESS)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!BB12", col_names = FALSE)[[1]]`
@@ -128,6 +155,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!DP7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!DS7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The perspective and question text change over time.
+</aside>
+
 **<a href="https://www.growingup.ie/information-for-researchers" target="_blank" title="https://www.growingup.ie/information-for-researchers" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Child Cohort</a>**
 
 -------------------   ---------------------------
@@ -139,6 +170,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!DT11", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!DT7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!DW7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The perspective and question text change over time.
+</aside>
 
 **<a href="https://growingupinscotland.org.uk/using-gus-data/data-documentation" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/data-documentation" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort 1</a>**
 
@@ -192,6 +227,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!F21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!S21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text change slightly over time.
+</aside>
+
 **<a href="https://www.understandingsociety.ac.uk/documentation" target="_blank" title="https://www.understandingsociety.ac.uk/documentation" rel="noopener noreferrer"> UK Household Longitudinal Study (UKHLS)</a>**
 
 -------------------   ---------------------------
@@ -211,10 +250,14 @@ Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 Measurement           Ordinal
 Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AD20", col_names = FALSE)[[1]]`
 Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AD23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AL23", col_names = FALSE)[[1]]`
-Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AD24", col_names = FALSE)[[1]]`
+Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AL24", col_names = FALSE)[[1]]`
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AD25", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AD21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AL21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The question text changes slightly over time.
+</aside>
 
 **<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" rel="noopener noreferrer"> Millenium Cohort Study (MCS)</a>**
 
@@ -227,6 +270,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AN25", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AN21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!AR21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The perspective and question text change over time.
+</aside>
 
 **<a href="https://cls.ucl.ac.uk/cls-studies/next-steps" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/next-steps" rel="noopener noreferrer"> Next Steps (LSYPE)</a>**
 
@@ -300,6 +347,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!DQ21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!DS21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
 **<a href="https://www.growingup.ie/information-for-researchers" target="_blank" title="https://www.growingup.ie/information-for-researchers" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Child Cohort</a>**
 
 -------------------   ---------------------------
@@ -311,6 +362,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!DT25", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!DT21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!DW21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The question text changes slightly over time.
+</aside>
 
 **<a href="https://growingupinscotland.org.uk/using-gus-data/data-documentation" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/data-documentation" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort 1</a>**
 
@@ -324,6 +379,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!DZ21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!EF21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
 **<a href="https://growingupinscotland.org.uk/using-gus-data/data-documentation" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/data-documentation" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort 1</a>**
 
 -------------------   ---------------------------
@@ -335,6 +394,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!EH25", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!EH21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!EI21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The question text changes slightly over time.
+</aside>
 
 **<a href="https://www.elfe-france.fr/en/the-research/access-to-data-and-questionnaires" target="_blank" title="https://www.elfe-france.fr/en/the-research/access-to-data-and-questionnaires" rel="noopener noreferrer"> Etude Longitudinale Francaise depuis l'enfance (ELFE)</a>**
 
@@ -377,3 +440,8 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!ER21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Health and Safety!EX21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The perspective and question text change over time.
+</aside>
+

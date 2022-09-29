@@ -1,0 +1,43 @@
+---
+title: "Variable harmonization"
+description: |
+  Household Income
+# author:
+#   - name: 
+#     url: 
+#     affiliation: 
+#     affiliation_url:
+# date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r initial, include=FALSE}
+Sys.setlocale("LC_ALL", "English")
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  comment = "##",
+  R.options = list(width = 70)
+)
+```
+
+# Set-up
+
+The following packages are necessary for importing, managing, and harmonization of data:
+
+````{r setup}
+library(haven)  # Import foreign statistical formats
+library(labelled)  # Functions to manipulate variable labels, value labels and missing values
+library(tidyverse)  # Suite of packages for data management
+library(questionr)  # Helps with frequency tables
+library(writexl)  # Export to Excel
+library(readxl)  # Importing from Excel
+````
+
+
+# Data import
+
+The first task is to import the data. At this time, only the relevant variable is imported. Before being finalized, the technical (eg. weights, identifiers) and demographic variables must be added. Where possible, the SPSS file format is preferred, since it comes with variable and value labels that are easy to extract. 
+
+

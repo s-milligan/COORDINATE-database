@@ -55,6 +55,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AM7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AR7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes over time.
+</aside>
+
 **<a href="https://cls.ucl.ac.uk/cls-studies/next-steps" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/next-steps" rel="noopener noreferrer"> Next Steps (LSYPE)</a>**
 
 -------------------   ---------------------------
@@ -66,6 +70,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AW11", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AW7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AX7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The question text changes slightly over time.
+</aside>
 
 **<a href="https://www.europeansocialsurvey.org/data" target="_blank" title="https://www.europeansocialsurvey.org/data" rel="noopener noreferrer"> European Social Survey (ESS)</a>**
 
@@ -103,6 +111,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DO7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DS7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
 **<a href="https://www.growingup.ie/information-for-researchers" target="_blank" title="https://www.growingup.ie/information-for-researchers" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Child Cohort</a>**
 
 -------------------   ---------------------------
@@ -115,6 +127,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DT7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DW7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The perspective and question text change over time.
+</aside>
+
 **<a href="https://growingupinscotland.org.uk/using-gus-data/data-documentation" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/data-documentation" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort 1</a>**
 
 -------------------   ---------------------------
@@ -126,6 +142,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DZ11", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DZ7", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EC7", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The question text changes slightly over time.
+</aside>
 
 ## Socialising with friends
 
@@ -153,6 +173,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AD21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AL21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
 **<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" rel="noopener noreferrer"> Millenium Cohort Study (MCS)</a>**
 
 -------------------   ---------------------------
@@ -165,6 +189,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AO21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AS21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
 **<a href="https://cls.ucl.ac.uk/cls-studies/next-steps" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/next-steps" rel="noopener noreferrer"> Next Steps (LSYPE)</a>**
 
 -------------------   ---------------------------
@@ -176,6 +204,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AT25", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AT21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BA21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The question text changes slightly over time.
+</aside>
 
 **<a href="https://www.europeansocialsurvey.org/data" target="_blank" title="https://www.europeansocialsurvey.org/data" rel="noopener noreferrer"> European Social Survey (ESS)</a>**
 
@@ -225,15 +257,19 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BW21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BZ21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
 **<a href="https://surveys.dji.de/index.php?m=msg,0&fID=3" target="_blank" title="https://surveys.dji.de/index.php?m=msg,0&fID=3" rel="noopener noreferrer"> Deutsches Jugendinstitut Jugendsurvey (DJI)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!CC26", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
+Measurement           Ordinal
 Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!CC20", col_names = FALSE)[[1]]`
 Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!CD23", col_names = FALSE)[[1]]` , `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!CC23", col_names = FALSE)[[1]]`
 Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!CC24", col_names = FALSE)[[1]]`
-Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!CC24", col_names = FALSE)[[1]]`
+Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!CC40", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!CC21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
@@ -248,6 +284,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DS25", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DS21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The perspective and question text change over time.
+</aside>
 
 **<a href="https://www.growingup.ie/information-for-researchers" target="_blank" title="https://www.growingup.ie/information-for-researchers" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Child Cohort</a>**
 
@@ -273,6 +313,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DZ21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EE21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
 **<a href="https://ncds.info/home/surveys" target="_blank" title="https://ncds.info/home/surveys" rel="noopener noreferrer"> National Child Development Study (NCDS)</a>**
 
 -------------------   ---------------------------
@@ -284,6 +328,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EO25", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EO21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EP21", col_names = FALSE)[[1]]` 
 -------------------   ---------------------------
+
+<aside>
+The question text changes slightly over time.
+</aside>
 
 **<a href="https://www.fhi.no/en/studies/moba " target="_blank" title="https://www.fhi.no/en/studies/moba " rel="noopener noreferrer"> Norwegian Mother, Father and Child Cohort Study (NMFCS)</a>**
 
@@ -297,6 +345,9 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EU21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EX21", col_names = FALSE)[[1]]` 
 -------------------   ---------------------------
 
+<aside>
+The perspective and question text change over time.
+</aside>
 
 ## Number of close friends
 
@@ -316,7 +367,7 @@ Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!T41", col_names = FALSE)[[1]]`
-Measurement           Nominal
+Measurement           Ordinal
 Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!T35", col_names = FALSE)[[1]]`
 Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!T38", col_names = FALSE)[[1]]`
 Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!T39", col_names = FALSE)[[1]]`
@@ -366,10 +417,10 @@ Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BW41", col_names = FALSE)[[1]]`
 Measurement           Ordinal
 Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BW35", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BW38", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BZ38", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BW38", col_names = FALSE)[[1]]`
 Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BW39", col_names = FALSE)[[1]]`
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BW40", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BW36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BZ36", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BW36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BY36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **<a href="https://surveys.dji.de/index.php?m=msg,0&fID=3" target="_blank" title="https://surveys.dji.de/index.php?m=msg,0&fID=3" rel="noopener noreferrer"> Deutsches Jugendinstitut Jugendsurvey (DJI)</a>**
@@ -396,6 +447,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!CE36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DN36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The perspective and question text change over time.
+</aside>
+
 **<a href="https://www.growingup.ie/information-for-researchers" target="_blank" title="https://www.growingup.ie/information-for-researchers" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Infant Cohort</a>**
 
 -------------------   ---------------------------
@@ -407,6 +462,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DS40", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DS36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The perspective and question text change over time.
+</aside>
 
 **<a href="https://www.growingup.ie/information-for-researchers" target="_blank" title="https://www.growingup.ie/information-for-researchers" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Child Cohort</a>**
 
@@ -420,6 +479,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DT36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DW36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The perspective and question text change over time.
+</aside>
+
 **<a href="https://growingupinscotland.org.uk/using-gus-data/data-documentation" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/data-documentation" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort 1</a>**
 
 -------------------   ---------------------------
@@ -431,6 +494,11 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DY40", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!DY36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EF36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The question text changes slightly over time.
+</aside>
+
 
 **<a href="https://growingupinscotland.org.uk/using-gus-data/data-documentation" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/data-documentation" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort 2</a>**
 
@@ -444,6 +512,11 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EH36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EI36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
+
 **<a href="https://www.fhi.no/en/studies/moba " target="_blank" title="https://www.fhi.no/en/studies/moba " rel="noopener noreferrer"> Norwegian Mother, Father and Child Cohort Study (NMFCS)</a>**
 
 -------------------   ---------------------------
@@ -455,6 +528,11 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EW40", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EW36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EX36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The perspective and question text change over time.
+</aside>
+
 
 ## Positive family environment
 
@@ -482,6 +560,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AD49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!AL49", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
 **<a href="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/millennium-cohort-study" rel="noopener noreferrer"> Millenium Cohort Study (MCS)</a>**
 
 -------------------   ---------------------------
@@ -505,6 +587,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BK53", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BK49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!BN49", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The perspective and question text change over time.
+</aside>
 
 **<a href="http://www.espad.org/databases" target="_blank" title="http://www.espad.org/databases" rel="noopener noreferrer"> European School Survey Project on Alcohol and Other Drugs (ESPAD)</a>**
 
@@ -530,6 +616,11 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!CB49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!CD49", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
+
 **<a href="https://paneldata.org/soep-core" target="_blank" title="https://paneldata.org/soep-core" rel="noopener noreferrer"> Socio-Economic Panel Study Germany (SOEP)</a>**
 
 -------------------   ---------------------------
@@ -549,8 +640,8 @@ Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 Measurement           Ordinal
 Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EG48", col_names = FALSE)[[1]]`
 Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EG51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EH51", col_names = FALSE)[[1]]`
-Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EG52", col_names = FALSE)[[1]]`
-Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EG53", col_names = FALSE)[[1]]`
+Geographical coverage `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EG52", col_names = FALSE)[[1]]`
+Survey design         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EG53", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EG49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Family and Environment!EH49", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 

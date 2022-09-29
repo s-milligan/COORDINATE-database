@@ -100,6 +100,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BB36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BJ36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes over time.
+</aside>
+
 **<a href="https://cls.ucl.ac.uk/cls-studies/1970-british-cohort-study/" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/1970-british-cohort-study/" rel="noopener noreferrer"> British Cohort Survey 70 (BCS70)</a>**
 
 -------------------   ---------------------------
@@ -112,6 +116,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BM36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BN36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes over time.
+</aside>
+
 **<a href="https://surveys.dji.de/index.php?m=msg,0&fID=3" target="_blank" title="https://surveys.dji.de/index.php?m=msg,0&fID=3" rel="noopener noreferrer"> Deutsches Jugendinstitut Jugendsurvey (DJI)</a>**
 
 -------------------   ---------------------------
@@ -123,6 +131,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CB40", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CB36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CD36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The question text changes over time.
+</aside>
 
 **<a href="https://paneldata.org/soep-core" target="_blank" title="https://paneldata.org/soep-core" rel="noopener noreferrer"> Socio-Economic Panel Study Germany (SOEP)</a>**
 
@@ -148,6 +160,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DO36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DS36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes over time.
+</aside>
+
 **<a href="https://www.growingup.ie/information-for-researchers" target="_blank" title="https://www.growingup.ie/information-for-researchers" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Child Cohort</a>**
 
 -------------------   ---------------------------
@@ -159,6 +175,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DT40", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DT36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DW36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The question text changes over time.
+</aside>
 
 **<a href="https://growingupinscotland.org.uk/using-gus-data/data-documentation" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/data-documentation" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort 1</a>**
 
@@ -172,6 +192,10 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DX36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!EF36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes over time.
+</aside>
+
 **<a href="https://growingupinscotland.org.uk/using-gus-data/data-documentation" target="_blank" title="https://growingupinscotland.org.uk/using-gus-data/data-documentation" rel="noopener noreferrer"> Growing Up in Scotland (GUIS) Birth Cohort 2</a>**
 
 -------------------   ---------------------------
@@ -183,6 +207,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!EG40", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!EG36", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!EI36", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The question text changes over time.
+</aside>
 
 **<a href="https://www.elfe-france.fr/en/the-research/access-to-data-and-questionnaires" target="_blank" title="https://www.elfe-france.fr/en/the-research/access-to-data-and-questionnaires" rel="noopener noreferrer"> Etude Longitudinale Francaise depuis l'enfance (ELFE)</a>**
 
@@ -256,7 +284,7 @@ Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BE51", col_names = FALSE)[[1]]`
 Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BE52", col_names = FALSE)[[1]]`
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BE53", col_names = FALSE)[[1]]`
-Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BE49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BL49", col_names = FALSE)[[1]]`
+Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BE49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BJ49", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **<a href="https://cls.ucl.ac.uk/cls-studies/1970-british-cohort-study/" target="_blank" title="https://cls.ucl.ac.uk/cls-studies/1970-british-cohort-study/" rel="noopener noreferrer"> British Cohort Survey 70 (BCS70)</a>**
@@ -277,14 +305,13 @@ Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BP54", col_names = FALSE)[[1]]`
 Measurement           Ordinal
 Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BP48", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BP51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BS51", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BP51", col_names = FALSE)[[1]]`
 Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BP52", col_names = FALSE)[[1]]`
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BP53", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BP49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!BS49", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
 **<a href="https://surveys.dji.de/index.php?m=msg,0&fID=3" target="_blank" title="https://surveys.dji.de/index.php?m=msg,0&fID=3" rel="noopener noreferrer"> Deutsches Jugendinstitut Jugendsurvey (DJI)</a>**
-
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CA54", col_names = FALSE)[[1]]`
@@ -296,13 +323,17 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CA49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CD49", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
+<aside>
+The question text changes slightly over time.
+</aside>
+
 **<a href="https://paneldata.org/soep-core" target="_blank" title="https://paneldata.org/soep-core" rel="noopener noreferrer"> Socio-Economic Panel Study Germany (SOEP)</a>**
  
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CE54", col_names = FALSE)[[1]]`
 Measurement           Ordinal
 Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CE48", col_names = FALSE)[[1]]`
-Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CE51", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DN51", col_names = FALSE)[[1]]`
+Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CE51", col_names = FALSE)[[1]]`
 Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CE52", col_names = FALSE)[[1]]`
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CE53", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!CE49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DN49", col_names = FALSE)[[1]]`
@@ -319,6 +350,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DP53", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DP49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DS49", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+Question changes beginning in 2015/16.
+</aside>
 
 **<a href="https://www.growingup.ie/information-for-researchers" target="_blank" title="https://www.growingup.ie/information-for-researchers" rel="noopener noreferrer"> Growing Up in Ireland (GUII) Child Cohort</a>**
 
@@ -343,6 +378,10 @@ Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmon
 Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DX53", col_names = FALSE)[[1]]`
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!DX49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!EC49", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
+
+<aside>
+The question text changes slightly over time.
+</aside>
 
 **<a href="https://www.fhi.no/en/studies/moba " target="_blank" title="https://www.fhi.no/en/studies/moba " rel="noopener noreferrer"> Norwegian Mother, Father and Child Cohort Study (NMFCS)</a>**
 
@@ -643,7 +682,7 @@ Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!B26", col_names = FALSE)[[1]]`
-Measurement           Ordinal
+Measurement           Nominal
 Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!B20", col_names = FALSE)[[1]]`
 Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!B23", col_names = FALSE)[[1]]`
 Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!B24", col_names = FALSE)[[1]]`
@@ -691,7 +730,7 @@ Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Docu
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!AT26", col_names = FALSE)[[1]]`
-Measurement           Nominal & Ordinal
+Measurement           Nominal
 Perspective           `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!AT20", col_names = FALSE)[[1]]`
 Age range             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!AT23", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!AW23", col_names = FALSE)[[1]]`
 Geographical coverage             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!AT24", col_names = FALSE)[[1]]`

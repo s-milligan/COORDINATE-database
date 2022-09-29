@@ -33,8 +33,16 @@ navbar:
       menu:
         - text: "Introduction"
           href: harmonization.html
+        - text: "Household income"
+          href: pa_MWinco_harm.html
         - text: "Educational satisfaction"
           href: ch_EDsati_1_harm.html
-        - text: "Household income"
-          href: pa_MWinco_1.html
+        - text: "General health"
+          href: ch_HEgenh_harm.html
+        - text: "Neighbourhood safety"
+          href: ch_FEsaft_harm.html
+        - text: "Tobacco usage"
+          href: ch_RBsmo_harm.html
+        - text: "Happiness"
+          href: ch_WBhapp.html
 output: distill::distill_article
