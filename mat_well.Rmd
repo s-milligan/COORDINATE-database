@@ -21,7 +21,7 @@ Economic conditions play an important role in the well-being of Children. Eviden
 <!-- Data from the International Survey of Children's Wellbeing show that over 20% of 8 year old children surveyed from across Europe are always worried about family finances.^[The data are drawn from the second wave of Children’s Worlds project (2016), an international survey of children’s lives and wellbeing. See https://isciweb.org/] Access to certain types of resources such as digital media and reading material are also central to children's development and conditional upon their family's material wellbeing. -->
 
 <!-- ```{r, fig.margin=TRUE, cache=TRUE} -->
-<!-- ec <- haven::read_sav("I:/Team_IntUm/COORDINATE/Source Surveys Data & Documentation/Children's World (ISCWeB)/Data/Childrens worlds 2nd wave/ChildrensWorlds-Wave2-16Countries-8YO-060117.sav", col_select="FrequencyWorryFamilyMoney", user_na=FALSE) -->
+<!-- ec <- haven::read_sav("I:/Team_IntUm/COORDINATE/Source Surveys Data & Documentation/Children's Worlds (ISCWeB)/Data/Childrens worlds 2nd wave/ChildrensWorlds-Wave2-16Countries-8YO-060117.sav", col_select="FrequencyWorryFamilyMoney", user_na=FALSE) -->
 
 <!-- df1 <- haven::as_factor(ec) -->
 
@@ -263,7 +263,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!B49", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!S49", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**<a href="https://isciweb.org/the-data/access-our-dataset" target="_blank" title="https://isciweb.org/the-data/access-our-dataset" rel="noopener noreferrer"> Children's World (ISCWeB)</a>**
+**<a href="https://isciweb.org/the-data/access-our-dataset" target="_blank" title="https://isciweb.org/the-data/access-our-dataset" rel="noopener noreferrer"> Children's Worlds (ISCWeB)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!AD54", col_names = FALSE)[[1]]`
@@ -409,7 +409,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!B62", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!S62", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**<a href="https://isciweb.org/the-data/access-our-dataset" target="_blank" title="https://isciweb.org/the-data/access-our-dataset" rel="noopener noreferrer"> Children's World (ISCWeB)</a>**
+**<a href="https://isciweb.org/the-data/access-our-dataset" target="_blank" title="https://isciweb.org/the-data/access-our-dataset" rel="noopener noreferrer"> Children's Worlds (ISCWeB)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!AD67", col_names = FALSE)[[1]]`
@@ -702,7 +702,7 @@ Survey design             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization 
 Time span             `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!T21", col_names = FALSE)[[1]]` -- `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!AC21", col_names = FALSE)[[1]]`
 -------------------   ---------------------------
 
-**<a href="https://isciweb.org/the-data/access-our-dataset" target="_blank" title="https://isciweb.org/the-data/access-our-dataset" rel="noopener noreferrer"> Children's World (ISCWeB)</a>**
+**<a href="https://isciweb.org/the-data/access-our-dataset" target="_blank" title="https://isciweb.org/the-data/access-our-dataset" rel="noopener noreferrer"> Children's Worlds (ISCWeB)</a>**
 
 -------------------   ---------------------------
 Question text         `r read_excel("I:/Team_IntUm/COORDINATE/Harmonization Documentation/Harmonization-Documentation2.0.xlsx", range="Material wellbeing!AD26", col_names = FALSE)[[1]]`
